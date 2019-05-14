@@ -88,3 +88,6 @@
 2019/05/13-20:43:59.858 2d12 Level-0 table #947: started
 2019/05/13-20:43:59.862 2d12 Level-0 table #947: 17816 bytes OK
 2019/05/13-20:43:59.865 2d12 Delete type=0 #943
+2019/05/13-21:45:52.026 62db Level-0 table #949: started
+2019/05/13-21:45:52.030 62db Level-0 table #949: 19401 bytes OK
+2019/05/13-21:45:52.039 62db Delete type=0 #946

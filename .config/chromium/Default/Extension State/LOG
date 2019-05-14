@@ -1,3 +1,15 @@
 2019/05/10-22:15:40.079 4d9 Reusing MANIFEST /home/shail/.config/chromium/Default/Extension State/MANIFEST-000001
 2019/05/10-22:15:40.079 4d9 Recovering log #40
 2019/05/10-22:15:40.101 4d9 Reusing old log /home/shail/.config/chromium/Default/Extension State/000040.log 
+2019/05/13-21:45:38.079 6f0 Level-0 table #44: started
+2019/05/13-21:45:38.102 6f0 Level-0 table #44: 2106260 bytes OK
+2019/05/13-21:45:38.109 6f0 Delete type=0 #40
+2019/05/13-21:45:38.109 6f0 Compacting 4@0 + 1@1 files
+2019/05/13-21:45:38.129 6f0 Generated table #45@0: 9 keys, 12010 bytes
+2019/05/13-21:45:38.129 6f0 Compacted 4@0 + 1@1 files => 12010 bytes
+2019/05/13-21:45:38.133 6f0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/05/13-21:45:38.133 6f0 Delete type=2 #38
+2019/05/13-21:45:38.134 6f0 Delete type=2 #41
+2019/05/13-21:45:38.134 6f0 Delete type=2 #36
+2019/05/13-21:45:38.134 6f0 Delete type=2 #44
+2019/05/13-21:45:38.135 6f0 Delete type=2 #33
