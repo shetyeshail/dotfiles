@@ -1,0 +1,83 @@
+{
+   "appleappdownload": {
+      "message": "Descargar de App Store"
+   },
+   "apps": {
+      "message": "Aplicaciones"
+   },
+   "change": {
+      "message": "Cambiar"
+   },
+   "close": {
+      "message": "Cerrar"
+   },
+   "credits": {
+      "message": "Google Arts & Culture"
+   },
+   "defaultnewtab": {
+      "message": "Nueva pestaña predeterminada"
+   },
+   "extdescription": {
+      "message": "Obras maestras de Google Arts & Culture en las pestañas de tu navegador"
+   },
+   "extname": {
+      "message": "Google Arts & Culture"
+   },
+   "extshortname": {
+      "message": "Arts & Culture"
+   },
+   "optionsappsbtn": {
+      "message": "Mostrar el botón de las aplicaciones"
+   },
+   "optionsappsbtndesc": {
+      "message": "Abre la página de aplicaciones de Chrome"
+   },
+   "optionsinterface": {
+      "message": "Configuración de la interfaz"
+   },
+   "optionsntpbtn": {
+      "message": "Mostrar el botón de nueva pestaña predeterminada"
+   },
+   "optionsntpbtndesc": {
+      "message": "Abre la nueva pestaña predeterminada de Chrome"
+   },
+   "optionstopsitesbtn": {
+      "message": "Mostrar el botón de sitios principales"
+   },
+   "optionstopsitesbtndesc": {
+      "message": "Abre una lista rápida de tus sitios web más visitados"
+   },
+   "pagetitle": {
+      "message": "Nueva pestaña"
+   },
+   "playappdownload": {
+      "message": "Descárgala en Google Play"
+   },
+   "showappsbutton": {
+      "message": "Mostrar el botón de las aplicaciones"
+   },
+   "showdefaulttablink": {
+      "message": "Mostrar el botón de nueva pestaña predeterminada"
+   },
+   "showtopsitesbutton": {
+      "message": "Mostrar el botón de sitios principales"
+   },
+   "topsites": {
+      "message": "Sitios principales"
+   },
+   "turnovergroup": {
+      "message": "Cambiar obra de arte..."
+   },
+   "turnovermodealways": {
+      "message": "En cada nueva pestaña"
+   },
+   "turnovermodedaily": {
+      "message": "A diario"
+   },
+   "unknown": {
+      "message": "Artista desconocido"
+   },
+   "untitled": {
+      "message": "Sin título"
+   }
+}

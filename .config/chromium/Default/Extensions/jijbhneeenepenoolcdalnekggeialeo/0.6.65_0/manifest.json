@@ -1,0 +1,16 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://tomato.es/"
+      },
+      "urls": [ "http://tomato.es/" ]
+   },
+   "description": "Pomodoro technique® web-based time tracker",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDHqX/tfG3Nk6kJu8SNJi8LttFj0ZV2XDFvt4vwtlooAKAIJgpwBYEEzScZMkvLC4e8gvBBIlvMj9+TYZ7ityQSfD/cNI9FQq8rcSmvgkqnw1+m6BZ5BKZ36kTBEvtv3Wrc29nTzX00khd1VJ1YSKvYHhkj/2Dwva8UClEWodTmKQIDAQAB",
+   "name": "Tomatoes",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.6.65"
+}

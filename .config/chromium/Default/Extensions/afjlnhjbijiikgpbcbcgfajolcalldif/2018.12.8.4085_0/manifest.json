@@ -1,0 +1,20 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://moodle.dasd.org/"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "1RvMEBHXg7XjsPeX/x02n1nf6cYRqR2Jm3prVB1CHGg=",
+   "name": "http://moodle.dasd.org/",
+   "version": "2018.12.8.4085"
+}

@@ -1,0 +1,83 @@
+{
+   "appleappdownload": {
+      "message": "ទាញយក​នៅក្នុង​ហាងកម្មវិធី"
+   },
+   "apps": {
+      "message": "កម្មវិធី"
+   },
+   "change": {
+      "message": "ផ្លាស់ប្ដូរ"
+   },
+   "close": {
+      "message": "បិទ"
+   },
+   "credits": {
+      "message": "Google Arts & Culture"
+   },
+   "defaultnewtab": {
+      "message": "ផ្ទាំងថ្មីលំនាំដើម"
+   },
+   "extdescription": {
+      "message": "ស្នាដៃឯកសិល្បៈពី Google Arts & Culture នៅក្នុងផ្ទាំងកម្មវិធីរុករកតាមអ៊ីធឺណិតរបស់អ្នក"
+   },
+   "extname": {
+      "message": "Google Arts & Culture"
+   },
+   "extshortname": {
+      "message": "សិល្បៈ និងវប្បធម៍"
+   },
+   "optionsappsbtn": {
+      "message": "បង្ហាញប៊ូតុងកម្មវិធី"
+   },
+   "optionsappsbtndesc": {
+      "message": "បើកទំព័រកម្មវិធីរបស់ Chrome"
+   },
+   "optionsinterface": {
+      "message": "ការកំណត់ចំណុចប្រទាក់"
+   },
+   "optionsntpbtn": {
+      "message": "បង្ហាញប៊ូតុងផ្ទាំងថ្មីលំនាំដើម"
+   },
+   "optionsntpbtndesc": {
+      "message": "បើកផ្ទាំងថ្មីលំនាំដើមរបស់ Chrome"
+   },
+   "optionstopsitesbtn": {
+      "message": "បង្ហាញប៊ូតុងគេហទំព័រថ្មីៗ"
+   },
+   "optionstopsitesbtndesc": {
+      "message": "បើកបញ្ជីត្រួសៗនៃគេហទំព័រដែលអ្នកចូលទៅកាន់ច្រើនបំផុត"
+   },
+   "pagetitle": {
+      "message": "ផ្ទាំងថ្មី"
+   },
+   "playappdownload": {
+      "message": "ទាញ​យកវា​នៅ​លើ Google Play"
+   },
+   "showappsbutton": {
+      "message": "បង្ហាញប៊ូតុងកម្មវិធី"
+   },
+   "showdefaulttablink": {
+      "message": "បង្ហាញប៊ូតុងផ្ទាំងថ្មីលំនាំដើម"
+   },
+   "showtopsitesbutton": {
+      "message": "បង្ហាញប៊ូតុងគេហទំព័រថ្មីៗ"
+   },
+   "topsites": {
+      "message": "គេហទំព័រថ្មីៗ"
+   },
+   "turnovergroup": {
+      "message": "ផ្លាស់ប្តូរស្នាដៃសិល្បៈ..."
+   },
+   "turnovermodealways": {
+      "message": "នៅគ្រប់ផ្ទាំងថ្មី"
+   },
+   "turnovermodedaily": {
+      "message": "ប្រចាំថ្ងៃ"
+   },
+   "unknown": {
+      "message": "មិនស្គាល់សិល្បករ"
+   },
+   "untitled": {
+      "message": "គ្មានចំណងជើង"
+   }
+}

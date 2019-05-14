@@ -1,0 +1,30 @@
+{
+   "app": {
+      "background": {
+         "persistent": true,
+         "scripts": [ "service.js" ]
+      }
+   },
+   "default_locale": "en",
+   "description": "Your beautiful and simple to-do list app",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "48": "icons/48.png",
+      "96": "icons/96.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC25Gc9ZjsywXE6Z5FRKfx9Mg+VcfplwRFVsRfEWK2fCUjUzhOIaJyDQjzGKXhyNB+niDUEQBV3Owd3L4Ays/gQPmZYSDE9Fa1C+smKUqYWfJ18F8Kdj+feK89Ezhuy53kQq/novod61e7DJMWeG1qhsCtEFj0qYOQOxYbS2+Qa3QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "29",
+   "name": "Wunderlist for Chrome",
+   "oauth2": {
+      "client_id": "773050426390-8aff4g1mfag0qpnnonpkt7fdv3pl9u9g.apps.googleusercontent.com",
+      "scopes": [ "profile", "email" ]
+   },
+   "offline_enabled": true,
+   "optional_permissions": [ "audioCapture" ],
+   "permissions": [ "https://*.wunderlist.com/", "https://*.wunderlist.io/", "https://*.s3.amazonaws.com/", "https://*.googleapis.com/", "https://graph.facebook.com/", "https://d1l1r288vf46ed.cloudfront.net/", "https://ssl.google-analytics.com/", "https://notify.bugsnag.com/", "webview", "notifications", "storage", "identity" ],
+   "short_name": "Wunderlist",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.19.1"
+}

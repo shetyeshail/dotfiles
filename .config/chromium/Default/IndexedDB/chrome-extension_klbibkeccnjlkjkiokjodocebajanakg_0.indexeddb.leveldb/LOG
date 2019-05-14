@@ -1,0 +1,12 @@
+2019/05/10-22:15:39.645 51d Reusing MANIFEST /home/shail/.config/chromium/Default/IndexedDB/chrome-extension_klbibkeccnjlkjkiokjodocebajanakg_0.indexeddb.leveldb/MANIFEST-000001
+2019/05/10-22:15:39.646 51d Recovering log #120
+2019/05/10-22:15:39.665 51d Reusing old log /home/shail/.config/chromium/Default/IndexedDB/chrome-extension_klbibkeccnjlkjkiokjodocebajanakg_0.indexeddb.leveldb/000120.log 
+2019/05/12-23:25:58.394 c2d Level-0 table #125: started
+2019/05/12-23:25:58.415 c2d Level-0 table #125: 1672035 bytes OK
+2019/05/12-23:25:58.423 c2d Delete type=0 #120
+2019/05/13-20:16:00.555 c2d Compacting 1@1 + 1@2 files
+2019/05/13-20:16:00.568 c2d Generated table #126@1: 129 keys, 30333 bytes
+2019/05/13-20:16:00.568 c2d Compacted 1@1 + 1@2 files => 30333 bytes
+2019/05/13-20:16:00.572 c2d compacted to: files[ 0 0 1 0 0 0 0 ]
+2019/05/13-20:16:00.572 c2d Delete type=2 #122
+2019/05/13-20:16:00.572 c2d Delete type=2 #125

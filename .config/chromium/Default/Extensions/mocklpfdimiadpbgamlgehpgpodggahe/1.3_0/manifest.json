@@ -1,0 +1,24 @@
+{
+   "background": {
+      "scripts": [ "r/b.js" ]
+   },
+   "chrome_url_overrides": {
+      "newtab": "r/r.htm"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extDes__",
+   "icons": {
+      "128": "r/1.png",
+      "48": "r/0.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgOrAnIxz35/Jb15NtSy3idJPXau/ox9XYXspiCejj9tyLdz/6/wz2A2W7vTLx7d9tF1BrVKulOSNaPMxu1O1ZR0YZg8bMdFWshPObiBlcAqQRuWoGnQokXtIRKo3VojKjALnciZ3UOJTqpR2QsHMcnoK3boyvhp4m3Q2id1E3NDfnYBPX8EM/HN1sV6OhtGcV7biVKADGO/l+JEpWlFApdP8FSeS7lUIQUT/a3UOLyyOkb/H7ShF5lslL7R4vJS8zN0A2gC/NNx9FtzQi2ucsdUNzUkQQlRs3bpKG7EH1SkB6fULH/wn8bLdWG7A0Dkhu/19cv+TIXdF6bJguRhyewIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "r/o.htm"
+   },
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3"
+}

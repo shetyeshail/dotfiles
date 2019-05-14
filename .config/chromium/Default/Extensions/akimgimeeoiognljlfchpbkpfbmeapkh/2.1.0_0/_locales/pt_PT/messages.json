@@ -1,0 +1,83 @@
+{
+   "appleappdownload": {
+      "message": "Transferir na App Store"
+   },
+   "apps": {
+      "message": "Aplicações"
+   },
+   "change": {
+      "message": "Alterar"
+   },
+   "close": {
+      "message": "Fechar"
+   },
+   "credits": {
+      "message": "Google Arts & Culture"
+   },
+   "defaultnewtab": {
+      "message": "Novo separador predefinido"
+   },
+   "extdescription": {
+      "message": "Obras-primas do Google Arts & Culture nos separadores do seu navegador"
+   },
+   "extname": {
+      "message": "Google Arts & Culture"
+   },
+   "extshortname": {
+      "message": "Arte e Cultura"
+   },
+   "optionsappsbtn": {
+      "message": "Mostrar botão de aplicações"
+   },
+   "optionsappsbtndesc": {
+      "message": "Abre a página de aplicações no Chrome"
+   },
+   "optionsinterface": {
+      "message": "Definições da interface"
+   },
+   "optionsntpbtn": {
+      "message": "Mostrar botão de novo separador predefinido"
+   },
+   "optionsntpbtndesc": {
+      "message": "Abre o novo separador predefinido no Chrome"
+   },
+   "optionstopsitesbtn": {
+      "message": "Mostrar botão de sites mais visitados"
+   },
+   "optionstopsitesbtndesc": {
+      "message": "Abre uma lista rápida dos sites mais visitados"
+   },
+   "pagetitle": {
+      "message": "Novo separador"
+   },
+   "playappdownload": {
+      "message": "Obtenha-a no Google Play"
+   },
+   "showappsbutton": {
+      "message": "Mostrar botão de aplicações"
+   },
+   "showdefaulttablink": {
+      "message": "Mostrar botão de novo separador predefinido"
+   },
+   "showtopsitesbutton": {
+      "message": "Mostrar botão de sites mais visitados"
+   },
+   "topsites": {
+      "message": "Sites mais visitados"
+   },
+   "turnovergroup": {
+      "message": "Alterar obra de arte..."
+   },
+   "turnovermodealways": {
+      "message": "Em cada novo separador"
+   },
+   "turnovermodedaily": {
+      "message": "Diariamente"
+   },
+   "unknown": {
+      "message": "Artista desconhecido"
+   },
+   "untitled": {
+      "message": "Sem título"
+   }
+}

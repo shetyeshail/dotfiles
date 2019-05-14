@@ -1,0 +1,99 @@
+<!DOCTYPE html><html><head>
+  <title></title>
+  <meta name="google" content="notranslate">
+
+  <script src="./polyfills/custom-elements-es5-adapter.js"></script>
+  <script src="./polyfills/web-animations-next-lite.min.js"></script>
+  <link rel="stylesheet" href="style_compiled.css">
+
+  <style is="custom-style">
+    html {
+      --paper-dialog-background-color: white;
+    }
+
+    .horizontal {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    #main paper-icon-button {
+      --paper-icon-button-ink-color: white;
+    }
+
+    body > iron-overlay-backdrop {
+      --iron-overlay-backdrop-background-color: white;
+    }
+  </style>
+</head>
+<body unresolved class="nochrome">
+  <iron-iconset-svg name="ci-icons" size="48">
+    <svg>
+      <defs>
+        <g id="default-new-tab">
+          <path fill="none" d="M0,0h48v48H0V0z"></path>
+          <g>
+            <polygon points="10,19.4 10,23.4 17.2,23.4 2.3,38.2 5.2,41 20,26.2 20,33.4 24,33.4 24,19.4"></polygon>
+            <path d="M42,6H6c-2.2,0-4,1.8-4,4v28c0,2.2,1.8,4,4,4h36c2.2,0,4-1.8,4-4V10C46,7.8,44.2,6,42,6z M42,38H6V10h20v8h16V38z"></path>
+          </g>
+          <path fill="none" d="M0,0h48v48H0V0z"></path>
+        </g>
+        <g id="topsites">
+          <path fill="none" d="M0,0h48v48H0V0z"></path>
+          <path fill="none" d="M0,0h48v48H0V0z"></path>
+          <path fill="none" d="M0,0h48v48H0V0z"></path>
+          <path d="M42,6H6c-2.2,0-4,1.8-4,4v28c0,2.2,1.8,4,4,4h36c2.2,0,4-1.8,4-4V10C46,7.8,44.2,6,42,6z M42,38H6V10h20v8h16V38z"></path>
+          <path fill="none" d="M0,0h48v48H0V0z"></path>
+          <g>
+            <polygon opacity="0.9" enable-background="new" points="16.9,22.1 16.9,27.3 21.4,29.9 22.1,28.7 18.5,26.5 18.5,22.1 "></polygon>
+            <path d="M17.8,35.7c-4.9,0-8.9-4-8.9-8.9c0-4.9,4-8.9,8.9-8.9c4.9,0,8.9,4,8.9,8.9C26.7,31.7,22.7,35.7,17.8,35.7z M17.8,19.4
+              c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3C25.2,22.7,21.9,19.4,17.8,19.4z"></path>
+          </g>
+        </g>
+      </defs>
+    </svg>
+  </iron-iconset-svg>
+
+  <div id="main" class="loading">
+    <section class="top-left">
+      <paper-icon-button id="applications" icon="apps" data-gacategory="ButtonClicked"
+                       data-gaaction="Apps">
+      </paper-icon-button>
+      <paper-icon-button id="defaultNewTab" icon="ci-icons:default-new-tab"
+                       data-gacategory="ButtonClicked" data-gaaction="DefaultTab">
+      </paper-icon-button>
+    </section>
+    <aside>
+      <rotating-button id="change" icon="refresh" data-gacategory="ButtonClicked"
+                       data-gaaction="Refresh">
+      </rotating-button>
+      <h1><a id="title" data-gacategory="AttributionClicked" data-gaaction="Title">Untitled</a></h1>
+      <p><a id="creator" data-gacategory="AttributionClicked" data-gaaction="Artist"></a>
+          <span class="pipe">|</span>
+          <a id="partner" data-gacategory="AttributionClicked" data-gaaction="Institution"></a>
+      </p>
+      <p><a id="credits" href="https://artsandculture.google.com/"
+            data-gacategory="AttributionClicked" data-gaaction="ArtProject" data-msg="credits"></a>
+      </p>
+    </aside>
+    <section class="bottom-right">
+      <paper-icon-button id="topsitesBtn"
+                       data-gacategory="ButtonClicked" data-gaaction="FrequentTabs"
+                       class="topsites-button" icon="ci-icons:topsites">
+      </paper-icon-button>
+    </section>
+  </div>
+
+  <paper-dialog id="topSites" modal="true"
+                entry-animation="scale-up-animation" transform-origin="1000 1000"
+                exit-animation="fade-out-animation">
+    <div class="horizontal">
+      <h2 id="topSitesTitle" data-msg="topsites" class="flex"></h2>
+      <paper-icon-button id="back" icon="close" role="button"></paper-icon-button>
+    </div>
+    <topsites-list></topsites-list>
+  </paper-dialog>
+
+  <script src="index_compiled_index.js"></script>
+
+</body></html>

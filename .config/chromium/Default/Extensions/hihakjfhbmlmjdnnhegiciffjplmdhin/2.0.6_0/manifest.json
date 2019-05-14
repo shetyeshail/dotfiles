@@ -1,0 +1,32 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_popup": "html/popup.html",
+      "default_title": "LinkedIn Sales Navigator"
+   },
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "include_globs": [  ],
+      "js": [ "global.js", "install.js" ],
+      "matches": [ "*://mail.google.com/*" ]
+   } ],
+   "content_security_policy": "default-src 'self' https://static.licdn-ei.com/ https://www.linkedin-ei.com/ https://static.licdn.com/ https://www.linkedin.com/ https://api.linkedin.com/ https://www.linkedin-ei.com/ https://platform.linkedin.com/",
+   "description": "Engage with Sales Navigator insights where you’re already communicating with prospects and customers.",
+   "externally_connectable": {
+      "matches": [ "*://mail.google.com/*", "*://www.linkedin-ei.com/*", "*://static.licdn-ei.com/*", "*://www.linkedin.com/*", "*://static.licdn.com/*" ]
+   },
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "32": "img/icon32.png",
+      "48": "img/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwnjXPJ/tqtb5j9oj9V2xykqYtXZyc4uRdNqhNb8ApX0wyUXjGc1Mo9Lnz1CMA6Ex9uWIr5BNBzN9LyICpW1ocHt46lSgrb2uy4f6jBxZkx2qB+KlSmQ1SN2E7HXTAcTOEHTqSpDHe1pG8mDiojGXR3Ap780hsx7AM6SBd650xcwIDAQAB",
+   "manifest_version": 2,
+   "name": "LinkedIn Sales Navigator",
+   "permissions": [ "https://rapportive.com/load/launchpad/*", "https://platform.linkedin.com/*", "https://www.linkedin.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.6"
+}

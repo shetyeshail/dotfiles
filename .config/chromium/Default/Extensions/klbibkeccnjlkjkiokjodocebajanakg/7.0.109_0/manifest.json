@@ -1,0 +1,60 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/db.js", "js/gsStorage.js", "js/background.js", "js/gsMessages.js", "js/gsUtils.js", "js/gsSession.js", "js/gsAnalytics.js", "js/gsSuspendManager.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "img/ic_suspendy_16x16.png",
+         "32": "img/ic_suspendy_32x32.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_ext_default_title__"
+   },
+   "commands": {
+      "1-suspend-tab": {
+         "description": "__MSG_ext_cmd_toggle_tab_suspension_description__",
+         "suggested_key": {
+            "default": "Ctrl+Shift+S"
+         }
+      },
+      "2-toggle-temp-whitelist-tab": {
+         "description": "__MSG_ext_cmd_toggle_tab_pause_description__"
+      },
+      "3-suspend-active-window": {
+         "description": "__MSG_ext_cmd_suspend_active_window_description__"
+      },
+      "4-unsuspend-active-window": {
+         "description": "__MSG_ext_cmd_unsuspend_active_window_description__"
+      },
+      "5-suspend-all-windows": {
+         "description": "__MSG_ext_cmd_suspend_all_windows_description__"
+      },
+      "6-unsuspend-all-windows": {
+         "description": "__MSG_ext_cmd_unsuspend_all_windows_description__"
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "js/contentscript.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_ext_extension_description__",
+   "icons": {
+      "128": "img/ic_suspendy_128x128.png",
+      "16": "img/ic_suspendy_16x16.png",
+      "32": "img/ic_suspendy_32x32.png",
+      "48": "img/ic_suspendy_48x48.png"
+   },
+   "incognito": "split",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWu7+3vUaUm2vuJZQsiPeciQbO5hpq8/Z2o6zP/Kv7I5+rI1ZfDhjsuz6jw2Efi23YwkAGPpXewhKnrmGXAgRSPIq1EHZUTwVwqo1SFWGCyEzywvXjpPiLaP3DsJCHT2wJE0KcWvt/aKeREtFCpvZ3b5vnupYh1oMlSryqBiINewIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "55",
+   "name": "__MSG_ext_extension_name__",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "storage", "history", "unlimitedStorage", "http://*/*", "https://*/*", "chrome://favicon/*", "https://greatsuspender.github.io/", "contextMenus", "cookies" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.0.109",
+   "web_accessible_resources": [ "suspended.html" ]
+}

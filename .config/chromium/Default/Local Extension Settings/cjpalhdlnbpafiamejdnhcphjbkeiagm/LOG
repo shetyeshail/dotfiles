@@ -1,0 +1,35 @@
+2019/05/10-22:15:39.499 521 Reusing MANIFEST /home/shail/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2019/05/10-22:15:39.499 521 Recovering log #348
+2019/05/10-22:15:39.527 521 Reusing old log /home/shail/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000348.log 
+2019/05/10-22:15:49.463 6f0 Level-0 table #352: started
+2019/05/10-22:15:49.499 6f0 Level-0 table #352: 1988388 bytes OK
+2019/05/10-22:15:49.505 6f0 Delete type=0 #348
+2019/05/10-22:15:50.726 6f0 Level-0 table #354: started
+2019/05/10-22:15:50.751 6f0 Level-0 table #354: 1829898 bytes OK
+2019/05/10-22:15:50.755 6f0 Delete type=0 #351
+2019/05/10-22:15:50.756 6f0 Compacting 4@0 + 3@1 files
+2019/05/10-22:15:50.808 6f0 Generated table #355@0: 10 keys, 2274298 bytes
+2019/05/10-22:15:50.845 6f0 Generated table #356@0: 12 keys, 2381238 bytes
+2019/05/10-22:15:50.860 6f0 Generated table #357@0: 16 keys, 545707 bytes
+2019/05/10-22:15:50.860 6f0 Compacted 4@0 + 3@1 files => 5201243 bytes
+2019/05/10-22:15:50.864 6f0 compacted to: files[ 0 3 4 0 0 0 0 ]
+2019/05/10-22:15:50.864 6f0 Delete type=2 #347
+2019/05/10-22:15:50.864 6f0 Delete type=2 #354
+2019/05/10-22:15:50.865 6f0 Delete type=2 #344
+2019/05/10-22:15:50.865 6f0 Delete type=2 #343
+2019/05/10-22:15:50.866 6f0 Delete type=2 #349
+2019/05/10-22:15:50.866 6f0 Delete type=2 #352
+2019/05/10-22:15:50.866 6f0 Delete type=2 #345
+2019/05/10-22:26:50.984 6f0 Level-0 table #359: started
+2019/05/10-22:26:51.019 6f0 Level-0 table #359: 2460341 bytes OK
+2019/05/10-22:26:51.023 6f0 Delete type=0 #353
+2019/05/10-22:33:10.765 6f0 Level-0 table #361: started
+2019/05/10-22:33:10.793 6f0 Level-0 table #361: 2772049 bytes OK
+2019/05/10-22:33:10.797 6f0 Delete type=0 #358
+2019/05/12-08:08:55.352 6f0 Compacting 1@1 + 2@2 files
+2019/05/12-08:08:55.390 6f0 Generated table #362@1: 13 keys, 545887 bytes
+2019/05/12-08:08:55.390 6f0 Compacted 1@1 + 2@2 files => 545887 bytes
+2019/05/12-08:08:55.394 6f0 compacted to: files[ 2 2 3 0 0 0 0 ]
+2019/05/12-08:08:55.394 6f0 Delete type=2 #357
+2019/05/12-08:08:55.394 6f0 Delete type=2 #227
+2019/05/12-08:08:55.395 6f0 Delete type=2 #226

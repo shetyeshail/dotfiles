@@ -1,0 +1,33 @@
+2019/05/05-01:39:52.167 70bc Reusing MANIFEST /home/shail/.config/chromium/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/05/05-01:39:52.168 70bc Recovering log #3
+2019/05/05-01:39:52.173 70bc Reusing old log /home/shail/.config/chromium/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000003.log 
+2019/05/05-01:41:16.332 6f12 Level-0 table #5: started
+2019/05/05-01:41:16.346 6f12 Level-0 table #5: 1336615 bytes OK
+2019/05/05-01:41:16.351 6f12 Delete type=0 #3
+2019/05/05-14:00:59.322 6f12 Level-0 table #7: started
+2019/05/05-14:00:59.340 6f12 Level-0 table #7: 1264728 bytes OK
+2019/05/05-14:00:59.347 6f12 Delete type=0 #4
+2019/05/05-14:07:06.982 6f12 Level-0 table #9: started
+2019/05/05-14:07:06.996 6f12 Level-0 table #9: 1296420 bytes OK
+2019/05/05-14:07:07.000 6f12 Delete type=0 #6
+2019/05/05-14:11:25.756 6f12 Level-0 table #11: started
+2019/05/05-14:11:25.776 6f12 Level-0 table #11: 1347181 bytes OK
+2019/05/05-14:11:25.782 6f12 Delete type=0 #8
+2019/05/05-14:21:12.817 6f12 Level-0 table #13: started
+2019/05/05-14:21:12.831 6f12 Level-0 table #13: 1339763 bytes OK
+2019/05/05-14:21:12.835 6f12 Delete type=0 #10
+2019/05/05-14:23:52.284 6f12 Level-0 table #15: started
+2019/05/05-14:23:52.298 6f12 Level-0 table #15: 1347688 bytes OK
+2019/05/05-14:23:52.302 6f12 Delete type=0 #12
+2019/05/05-14:23:52.303 6f12 Compacting 4@0 + 1@1 files
+2019/05/05-14:23:52.329 6f12 Generated table #16@0: 23 keys, 67175 bytes
+2019/05/05-14:23:52.329 6f12 Compacted 4@0 + 1@1 files => 67175 bytes
+2019/05/05-14:23:52.333 6f12 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/05/05-14:23:52.333 6f12 Delete type=2 #9
+2019/05/05-14:23:52.333 6f12 Delete type=2 #11
+2019/05/05-14:23:52.333 6f12 Delete type=2 #15
+2019/05/05-14:23:52.333 6f12 Delete type=2 #7
+2019/05/05-14:23:52.334 6f12 Delete type=2 #13
+2019/05/05-14:26:32.610 6f12 Level-0 table #18: started
+2019/05/05-14:26:32.624 6f12 Level-0 table #18: 1339314 bytes OK
+2019/05/05-14:26:32.628 6f12 Delete type=0 #14

@@ -1,0 +1,83 @@
+{
+   "appleappdownload": {
+      "message": "Скачать из App Store"
+   },
+   "apps": {
+      "message": "Приложения"
+   },
+   "change": {
+      "message": "Изменить"
+   },
+   "close": {
+      "message": "Закрыть"
+   },
+   "credits": {
+      "message": "Google Arts & Culture"
+   },
+   "defaultnewtab": {
+      "message": "Новая вкладка по умолчанию"
+   },
+   "extdescription": {
+      "message": "Произведения мирового искусства в вашем браузере"
+   },
+   "extname": {
+      "message": "Google Arts & Culture"
+   },
+   "extshortname": {
+      "message": "Arts & Culture"
+   },
+   "optionsappsbtn": {
+      "message": "Кнопка \"Приложения\""
+   },
+   "optionsappsbtndesc": {
+      "message": "Открыть страницу с приложениями"
+   },
+   "optionsinterface": {
+      "message": "Настройки интерфейса"
+   },
+   "optionsntpbtn": {
+      "message": "Кнопка \"Новая вкладка по умолчанию\""
+   },
+   "optionsntpbtndesc": {
+      "message": "Открыть новую вкладку по умолчанию"
+   },
+   "optionstopsitesbtn": {
+      "message": "Кнопка \"Популярные сайты\""
+   },
+   "optionstopsitesbtndesc": {
+      "message": "Открыть список самых посещаемых вами веб-сайтов"
+   },
+   "pagetitle": {
+      "message": "Новая вкладка"
+   },
+   "playappdownload": {
+      "message": "Скачать из Google Play"
+   },
+   "showappsbutton": {
+      "message": "Кнопка \"Приложения\""
+   },
+   "showdefaulttablink": {
+      "message": "Кнопка \"Новая вкладка по умолчанию\""
+   },
+   "showtopsitesbutton": {
+      "message": "Кнопка \"Популярные сайты\""
+   },
+   "topsites": {
+      "message": "Популярные сайты"
+   },
+   "turnovergroup": {
+      "message": "Смена экспонатов..."
+   },
+   "turnovermodealways": {
+      "message": "При открытии вкладки"
+   },
+   "turnovermodedaily": {
+      "message": "Ежедневно"
+   },
+   "unknown": {
+      "message": "Неизвестный автор"
+   },
+   "untitled": {
+      "message": "Без названия"
+   }
+}

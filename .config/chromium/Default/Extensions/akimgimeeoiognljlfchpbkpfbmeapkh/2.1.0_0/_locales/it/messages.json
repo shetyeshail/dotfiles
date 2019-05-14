@@ -1,0 +1,83 @@
+{
+   "appleappdownload": {
+      "message": "Scarica dall'App Store"
+   },
+   "apps": {
+      "message": "App"
+   },
+   "change": {
+      "message": "Cambia"
+   },
+   "close": {
+      "message": "Chiudi"
+   },
+   "credits": {
+      "message": "Google Arts & Culture"
+   },
+   "defaultnewtab": {
+      "message": "Nuova scheda predefinita"
+   },
+   "extdescription": {
+      "message": "Capolavori artistici di Google Arts & Culture nelle schede del browser"
+   },
+   "extname": {
+      "message": "Google Arts & Culture"
+   },
+   "extshortname": {
+      "message": "Arts & Culture"
+   },
+   "optionsappsbtn": {
+      "message": "Mostra pulsante App"
+   },
+   "optionsappsbtndesc": {
+      "message": "Apre la pagina delle app Chrome"
+   },
+   "optionsinterface": {
+      "message": "Impostazioni interfaccia"
+   },
+   "optionsntpbtn": {
+      "message": "Mostra pulsante Nuova scheda predefinita"
+   },
+   "optionsntpbtndesc": {
+      "message": "Apre una nuova scheda predefinita di Chrome"
+   },
+   "optionstopsitesbtn": {
+      "message": "Mostra pulsante Siti principali"
+   },
+   "optionstopsitesbtndesc": {
+      "message": "Apre un rapido elenco dei siti web che visiti più spesso"
+   },
+   "pagetitle": {
+      "message": "Nuova scheda"
+   },
+   "playappdownload": {
+      "message": "Scarica da Google Play"
+   },
+   "showappsbutton": {
+      "message": "Mostra pulsante App"
+   },
+   "showdefaulttablink": {
+      "message": "Mostra pulsante Nuova scheda predefinita"
+   },
+   "showtopsitesbutton": {
+      "message": "Mostra pulsante Siti principali"
+   },
+   "topsites": {
+      "message": "Siti principali"
+   },
+   "turnovergroup": {
+      "message": "Cambia opera d'arte..."
+   },
+   "turnovermodealways": {
+      "message": "In ciascuna nuova scheda"
+   },
+   "turnovermodedaily": {
+      "message": "Ogni giorno"
+   },
+   "unknown": {
+      "message": "Artista sconosciuto"
+   },
+   "untitled": {
+      "message": "Senza titolo"
+   }
+}

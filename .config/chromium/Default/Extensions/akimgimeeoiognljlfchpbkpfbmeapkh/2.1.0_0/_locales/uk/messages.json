@@ -1,0 +1,83 @@
+{
+   "appleappdownload": {
+      "message": "Завантажити з App Store"
+   },
+   "apps": {
+      "message": "Додатки"
+   },
+   "change": {
+      "message": "Змінити"
+   },
+   "close": {
+      "message": "Закрити"
+   },
+   "credits": {
+      "message": "Google Arts & Culture"
+   },
+   "defaultnewtab": {
+      "message": "Нова вкладка за умовчанням"
+   },
+   "extdescription": {
+      "message": "Твори мистецтва з проекту Google Arts & Culture на вкладках вашого веб-переглядача"
+   },
+   "extname": {
+      "message": "Google Arts & Culture"
+   },
+   "extshortname": {
+      "message": "Arts & Culture"
+   },
+   "optionsappsbtn": {
+      "message": "Показувати кнопку додатків"
+   },
+   "optionsappsbtndesc": {
+      "message": "Відкриває сторінку додатків Chrome"
+   },
+   "optionsinterface": {
+      "message": "Налаштування інтерфейсу"
+   },
+   "optionsntpbtn": {
+      "message": "Показувати кнопку нової вкладки за умовчанням"
+   },
+   "optionsntpbtndesc": {
+      "message": "Відкриває нову вкладку Chrome за умовчанням"
+   },
+   "optionstopsitesbtn": {
+      "message": "Показувати кнопку топ сайтів"
+   },
+   "optionstopsitesbtndesc": {
+      "message": "Відкриває короткий список сайтів, які ви найчастіше відвідуєте"
+   },
+   "pagetitle": {
+      "message": "Нова вкладка"
+   },
+   "playappdownload": {
+      "message": "Завантажити з Google Play"
+   },
+   "showappsbutton": {
+      "message": "Показати кнопку додатків"
+   },
+   "showdefaulttablink": {
+      "message": "Показати кнопку нової вкладки за умовчанням"
+   },
+   "showtopsitesbutton": {
+      "message": "Показати кнопку топ сайтів"
+   },
+   "topsites": {
+      "message": "Топ сайтів"
+   },
+   "turnovergroup": {
+      "message": "Змінювати твір мистецтва…"
+   },
+   "turnovermodealways": {
+      "message": "На кожній вкладці"
+   },
+   "turnovermodedaily": {
+      "message": "Щодня"
+   },
+   "unknown": {
+      "message": "Невідомий автор"
+   },
+   "untitled": {
+      "message": "Без назви"
+   }
+}

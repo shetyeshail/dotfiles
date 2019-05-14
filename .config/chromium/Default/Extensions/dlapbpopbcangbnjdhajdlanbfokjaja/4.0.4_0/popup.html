@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Refind</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta charset="utf-8">
+    <link href="vendor/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="vendor/bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+      @charset "UTF-8";.profile .tag{margin:0 5px 5px 0}.link.rv .tags .tag{margin:0 5px 5px 0}.link.rv .tags .tag .remove-incoming-link-tag,.link.rv .tags .tag .remove-tag{padding-left:0}.tags{display:inline;line-height:1;margin:0;padding:0}.tags .tags-list{display:inline}.tags .tag{display:inline-block;margin:0 5px 4px 0;color:#666;background-color:#f3f3f3;font-size:13px;line-height:1;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;cursor:pointer}@media (max-width:560px){.tags .tag{margin:0 4px 3px 0}}.tags .tag>*{display:inline-block;padding:6px 8px}@media (max-width:560px){.tags .tag{font-size:12px}.tags .tag>*{padding:4px 6px}}.tags .tag a{color:inherit}.tags .tag:hover{color:#444;background-color:#e3e3e3}.tags .tag .remove-incoming-link-tag,.tags .tag .remove-tag{display:none;font-size:13px;color:#666}@media (max-width:560px){.tags .tag .remove-incoming-link-tag,.tags .tag .remove-tag{position:relative;top:-1px;font-size:9px}}.tags .tag .remove-incoming-link-tag:hover,.tags .tag .remove-tag:hover{color:tomato}.tags .tag.expanded .remove-incoming-link-tag,.tags .tag.expanded .remove-tag{display:inline-block}.tags .tag-form{display:inline;margin:5px 0}.tags .tag-form .tag-input{margin-right:4px}.tags .tag-form .comment-input,.tags .tag-form .save-text-input,.tags .tag-form .tag-input{display:inline-block;max-width:30px;height:auto!important;vertical-align:top;text-align:center;padding:4px 4px;font-size:10px;background:0 0;color:#999;border:1px solid #e6e6e6;box-shadow:none;outline:0 none;-webkit-border-radius:2px!important;-moz-border-radius:2px!important;border-radius:2px!important;-webkit-appearance:none;-moz-appearance:none;appearance:none}@media (max-width:560px){.tags .tag-form .comment-input,.tags .tag-form .save-text-input,.tags .tag-form .tag-input{padding:2px 4px}}.tags .tag-form .comment-input::-webkit-input-placeholder,.tags .tag-form .save-text-input::-webkit-input-placeholder,.tags .tag-form .tag-input::-webkit-input-placeholder{content:'Tag';color:#999}.tags .tag-form .comment-input::-moz-placeholder,.tags .tag-form .save-text-input::-moz-placeholder,.tags .tag-form .tag-input::-moz-placeholder{content:'Tag';color:#999}.tags .tag-form .comment-input:-ms-input-placeholder,.tags .tag-form .save-text-input:-ms-input-placeholder,.tags .tag-form .tag-input:-ms-input-placeholder{content:'Tag';color:#999}.tags .tag-form .comment-input:-moz-placeholder,.tags .tag-form .save-text-input:-moz-placeholder,.tags .tag-form .tag-input:-moz-placeholder{content:'Tag';color:#999}.tags .tag-form .comment-input{max-width:60px}.tags .tag-form .comment-input.emphasized{color:#1492ef;border-color:#1492ef}.tags .tag-form .save-text-input{max-width:60px;margin-left:4px}.tags .tag-form .save-text-input:disabled{max-width:70px;border-color:#3cb371;background-color:#3cb371;color:#fff}.tags .tag-form a{cursor:pointer;margin-left:4px}.tags .tag-form.activated{display:block}.tags .tag-form.activated .tag-input{width:100%;max-width:200px;padding:6px 10px;text-align:left;margin:0;font-size:13px;background-color:#fff!important;color:#333;box-shadow:none;outline:0 none;-webkit-appearance:none;-moz-appearance:none;appearance:none}.tags .tag-form.activated .comment-input,.tags .tag-form.activated .save-text-input,.tags .tag-form.activated a{display:none}.main .explanation .tags{margin:0}.main .explanation .tags .tag{margin:3px}.main .explanation .tags .tag>a.text{padding:10px 14px}.tt-menu.tt-open{margin-bottom:30px}.tt-dataset-typeahead .circle-spinner{margin-top:1em;margin-bottom:1em}.spinner{position:absolute;left:50%;top:50%;transform:translateX(-50%) translateY(-50%)}.circle-spinner{height:40px;width:40px;margin:0 auto;-webkit-animation:rotation 1s 30 linear;-moz-animation:rotation 1s 30 linear;-o-animation:rotation 1s 30 linear;animation:rotation 1s 30 linear;-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;border:3px solid transparent}.circle-spinner.white:before{border-top:3px solid #fff;border-left:3px solid #fff;border-bottom:3px solid #fff;border-right:3px solid transparent}.circle-spinner:before{height:40px;width:40px;content:"";display:block;position:relative;left:-3px;top:-3px;border-top:3px solid #e6e6e6;border-left:3px solid #e6e6e6;border-bottom:3px solid #e6e6e6;border-right:3px solid transparent;-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%}.circle-spinner.small{height:25px;width:25px;border:2px solid transparent}.circle-spinner.small.white:before{border-top:2px solid #fff;border-left:2px solid #fff;border-bottom:2px solid #fff;border-right:2px solid transparent}.circle-spinner.small:before{height:25px;width:25px;left:-2px;top:-2px;border-top:2px solid #e6e6e6;border-left:2px solid #e6e6e6;border-bottom:2px solid #e6e6e6;border-right:2px solid transparent}@-webkit-keyframes rotation{from{-webkit-transform:rotate(0)}to{-webkit-transform:rotate(359deg)}}@-moz-keyframes rotation{from{-moz-transform:rotate(0)}to{-moz-transform:rotate(359deg)}}@-o-keyframes rotation{from{-o-transform:rotate(0)}to{-o-transform:rotate(359deg)}}@keyframes rotation{from{transform:rotate(0)}to{transform:rotate(359deg)}}.bounce-spinner{margin:100px auto 0;width:70px;text-align:center}.bounce-spinner>div{width:18px;height:18px;background-color:#333;border-radius:100%;display:inline-block;-webkit-animation:sk-bouncedelay 1.4s infinite ease-in-out both;animation:sk-bouncedelay 1.4s infinite ease-in-out both}.bounce-spinner .bounce1{-webkit-animation-delay:-.32s;animation-delay:-.32s}.bounce-spinner .bounce2{-webkit-animation-delay:-.16s;animation-delay:-.16s}@-webkit-keyframes sk-bouncedelay{0%,100%,80%{-webkit-transform:scale(0)}40%{-webkit-transform:scale(1)}}@keyframes sk-bouncedelay{0%,100%,80%{-webkit-transform:scale(0);transform:scale(0)}40%{-webkit-transform:scale(1);transform:scale(1)}}.modal .link.rv .tt-menu{margin-top:14px}.tt-menu{width:100%;margin-top:20px;padding:6px 0;z-index:1020;line-height:1.3;text-align:left;color:#333;background-color:#fff;border:1px solid #ccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 2px 5px -1px rgba(0,0,0,.2);-moz-box-shadow:0 2px 5px -1px rgba(0,0,0,.2);-o-box-shadow:0 2px 5px -1px rgba(0,0,0,.2);box-shadow:0 2px 5px -1px rgba(0,0,0,.2);background-clip:padding-box;cursor:pointer}.tt-suggestion{display:block;font-size:13px;padding:6px 10px}.tt-suggestion .count{color:#999;margin-left:.5em}.tt-suggestion:hover{background:#1492ef;color:#fff}.tt-suggestion:hover .count{color:#a8d2f0}.tt-cursor{background:#1492ef;color:#fff}.tt-cursor .count{color:#a8d2f0}.tt-hint{display:none!important}.twitter-typeahead .tt-hint,.twitter-typeahead .tt-query{margin-bottom:0}.messages{margin:15px 0 0 0;padding:15px 0 0 0;border-top:1px solid #f7f7f7}.messages a.all{font-size:13px}.messages .message{margin:5px 0 0 0;max-width:420px}.messages .message.me .message-actions{display:block}.messages .message.blank .content{margin-top:3px;padding:0}.messages .message>.image{display:inline-block;vertical-align:top;width:45px}.messages .message>.image .user img{height:38px;width:38px;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%}.messages .message .content{display:inline-block;vertical-align:top;width:calc(100% - 45px);font-size:13px;padding:8px 10px;line-height:16px;white-space:pre-wrap;word-wrap:break-word;color:#1c1e21!important;background-color:#f2f3f5;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px}.messages .message .content a.sender{color:#0c5890;font-weight:700;margin-right:.4em}.messages .message .content .text.expand{padding-top:5px;padding-bottom:15px}.messages .message .content .text.expand a{cursor:pointer;font-size:15px}.messages .message .content .with-collapsed::after{content:'…'}.messages .message .content .text-action-uncollapse{display:inline-block;margin-left:.4em;text-align:center;cursor:pointer;color:#0c5890;font-weight:700}.messages .message .content .collapsed-text{display:none}.messages .message .content textarea{width:100%;height:34px;max-height:110px;padding:8px 12px;line-height:16px;font-size:inherit;color:#1c1e21;background-color:transparent!important;border-color:#ccd0d563;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:0 none!important;resize:none}.messages .message .content textarea::-webkit-input-placeholder{color:#a1a5ab!important}.messages .message .content textarea::-moz-placeholder{color:#a1a5ab!important}.messages .message .content textarea:-moz-placeholder{color:#a1a5ab!important}.messages .message .content textarea:-ms-input-placeholder{color:#a1a5ab!important}.messages .message .content button{width:100%;height:28px;padding:0 0 0 10px;font-size:inherit;color:#90949c!important;text-align:left;line-height:16px;font-size:inherit;background-color:#fff!important;border-color:#ccd0d5;outline:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px}.messages .message .message-actions{display:none;text-align:right;font-size:10px}.messages .message .message-actions .action{display:inline-block;margin:0;padding:0;color:#a6b1bc;background-color:transparent}.messages .message .message-actions .action.spinning{color:#ff0}.messages .message .message-actions .action:after{content:'\a0\b7\a0'}.messages .message .message-actions .action:last-of-type:after{display:none}.messages .message .message-actions .action a{color:inherit}.messages .message .message-actions .action a:active,.messages .message .message-actions .action a:focus,.messages .message .message-actions .action a:hover{color:orange;text-decoration:none}.card .link .messages{margin:0;padding-top:5px;border-top:1px solid #ececec}.card .link .messages a.all{display:none!important;font-size:11px}.card .link .messages .action-link-chat{cursor:pointer!important}.card .link .messages .message{font-size:11px;display:none}.card .link .messages .message:first-of-type{display:block}.card .link .messages .message .content{font-size:11px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}.card .link .messages .message .content a.sender{display:none}.card .link .messages .message .content span.text{display:block;max-height:68px;overflow:hidden;line-height:14px}.card .link .messages .message .content span.text.collapsed-text{display:none}.card .link .messages .message .content span.text-action-uncollapse{display:none}.card .link .messages .message .content textarea{display:none}.card .link .messages .message .message-actions{display:none}.card .link .messages .message.blank{opacity:1!important}.card .link .messages .message+.message.blank{display:none}.save-actions{overflow:hidden}.save-actions.small .action{height:50px}.save-actions.small .action .left+.middle{width:calc(100% - 64px);padding:0}.save-actions.small .action .middle{width:calc(100% - 98px)}.save-actions.small .action .middle .caption{width:90%}.save-actions.small .action .middle .caption .title{font-size:13px;font-weight:700}.save-actions.small .action .middle .caption .description{margin-top:2px;font-size:10px;color:#c4c4c4}.save-actions.small .action .middle .caption .description:before{display:inline-block;width:14px}.save-actions.small .action .right{width:85px}.save-actions.small .action .right button{position:absolute;top:50%;left:50%;margin-top:-15px;margin-left:-40px;width:85px;height:30px;font-size:12px;line-height:1.1}.save-actions .action{height:65px;background-color:#fff}.save-actions .action:hover{background-color:#fff}.save-actions .action:hover .right button{opacity:1}.save-actions .action.emphasized{background-color:#fffced96}.save-actions .action.save{border-top:1px solid #f0f0f0}.save-actions .action.group-save{border-top:1px solid #f0f0f0}.save-actions .action.create-collection{border-top:1px solid #f0f0f0;cursor:pointer}.save-actions .action.create-collection .left .icon{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='612' height='586' viewBox='0 26.5 612 586'%3E%3Cpath d='M306 44.1c-151.9 0-275.4 123.5-275.4 275.4S154.1 594.9 306 594.9s275.4-123.5 275.4-275.4S457.9 44.1 306 44.1zm0 36.7c132 0 238.7 106.6 238.7 238.7 0 132-106.6 238.7-238.7 238.7-132 0-238.7-106.6-238.7-238.7C67.3 187.5 174 80.8 306 80.8zm-.2 85.3c-10.1.1-18.3 8.4-18.2 18.6v116.5H169.5c-10.1.5-17.9 9.2-17.4 19.3.5 10.1 9.2 17.9 19.3 17.4h116.3v116.3c-.1 10.1 8 18.5 18.1 18.6s18.5-8 18.6-18.1V337.9h116.2c10.1.1 18.5-8 18.6-18.1.1-10.1-8-18.5-18.1-18.6H324.4V184.9c.2-10.1-7.8-18.5-18-18.7-.2-.1-.4-.1-.6-.1z' fill='%231492ef'/%3E%3C/svg%3E")}.save-actions .action.create-collection .middle .caption .description{display:none}.save-actions .action.disabled{cursor:default;background-color:#fff}.save-actions .action.disabled .middle .caption .title{color:#999}.save-actions .action.disabled .right button{opacity:1;background-color:#999;cursor:default}.save-actions .action.disabled .right button:before{padding-right:10px;content:"\f00c";font-family:FontAwesome}.save-actions .action.disabled .right button:after{content:'Saved'}.save-actions .action .left{display:inline-block;width:60px;height:100%;vertical-align:top}.save-actions .action .left .icon{width:100%;height:100%;background-repeat:no-repeat;background-size:27px;background-position:center}.save-actions .action .left+.middle{width:calc(100% - 60px);padding:0}.save-actions .action .middle{width:calc(100% - 120px);padding:0 0 0 20px;position:relative;display:inline-block;height:100%;vertical-align:top;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.save-actions .action .middle .caption{position:absolute;width:100%;top:50%;transform:translateY(-50%);text-align:left}.save-actions .action .middle .caption .title{width:100%;font-size:16px;font-weight:700;line-height:1.2;color:#333;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}@media (max-width:330px){.save-actions .action .middle .caption .title{font-size:14px}}@media (max-width:310px){.save-actions .action .middle .caption .title{font-size:13px}}.save-actions .action .middle .caption .description{margin-top:5px;font-size:12px;font-weight:400;line-height:1!important;color:#c4c4c4}.save-actions .action .right{position:relative;display:inline-block;width:120px;height:100%;vertical-align:top;text-align:center}.save-actions .action .right button{position:absolute;top:50%;left:50%;margin-top:-18px;margin-left:-50px;width:100px;height:36px;font-size:14px;color:#fff;background-color:#1492ef;border:0;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;cursor:pointer}.save-actions .action .right button:before{content:'Save'}.messages{margin:0}.messages a.all{font-size:12px;color:#1492ef}.messages a.all:active,.messages a.all:focus,.messages a.all:hover{color:#0c5890}.messages .message:first-of-type{margin-top:10px}.messages .message .content{font-size:12px;line-height:14px}.messages .message .message-actions{display:none}.save-actions{max-height:426px;overflow-y:auto}.save-actions .action.save .right .visibility .icon{background-image:url(img/svg/fontawesome/globe-gray.svg)}.save-actions .action.read-soon .right .visibility .icon{background-image:url(img/svg/fontawesome/lock-gray.svg)}.save-actions .action.group-save .right .visibility .icon{background-image:url(img/svg/fontawesome/lock-gray.svg)}.save-actions .action.create-collection .left{width:40px;text-align:right;color:#1492ef}.save-actions .action.create-collection .left .icon{position:relative;top:2px;left:-7px;background-image:none;font-size:27px}.save-actions .action.create-collection .middle{padding-left:8px!important}body{width:320px;padding:0;font-size:11px;-webkit-font-smoothing:antialiased;color:#999;outline:0 none!important}.box{margin:0;padding:15px;background-color:#fff}.box.menu{padding-top:8px;padding-bottom:10px;padding-left:20px;color:#666}.box.actions{padding:0;border-top:1px solid #f0f0f0;border-bottom:1px solid #f0f0f0}.box.faces{padding-top:10px}.box.padding-top-0{padding-top:0}.box.padding-top-20{padding-top:20px}.box.padding-bottom-0{padding-bottom:0}.box.padding-bottom-10{padding-bottom:10px}.box.padding-bottom-25{padding-bottom:25px}.box.border-top{border-top:1px solid #eee!important}.box.light{background-color:#f7f7f7}.box.blue{background-color:#1492ef}.box.centered{text-align:center}.box .menu .left{display:inline-block;width:calc(100% - 84px);vertical-align:bottom}.box .menu .left .explainer a{text-decoration:underline;color:inherit;cursor:pointer}.box .menu .left .explainer a:active,.box .menu .left .explainer a:focus,.box .menu .left .explainer a:hover{color:#333}.box .menu .right{display:inline-block;width:80px;vertical-align:top;text-align:right}.box .dropdown{display:inline-block;float:right}.box .dropdown a.dropdown-toggle{font-size:16px;font-weight:700;text-transform:uppercase;letter-spacing:1.3px;color:#999}.box .dropdown a.dropdown-toggle:hover{color:#666}.box .dropdown a.dropdown-toggle:focus{color:inherit}.box .dropdown a.dropdown-toggle:after{display:none}.box .dropdown .dropdown-menu{text-align:left;font-size:14px}.box .dropdown .dropdown-item:active{color:#fff!important}.box h1{margin:0;padding:5px 0 8px 0;font-size:9px;letter-spacing:1.3px;text-transform:uppercase;color:#999}.feedback{padding:5px 20px}.feedback .title{margin:0 auto;font-size:16px;font-weight:700;color:#fff}.feedback .sentence{margin:5px auto 0 auto;font-size:15px;line-height:1.2;color:#a8d2f0}.feedback .actions{margin:30px auto 10px auto}.feedback .actions .action{display:inline-block}.feedback .actions .action a{padding:8px 16px;font-size:13px;color:#1492ef;background-color:#fff;-webkit-border-radius:9999em;-moz-border-radius:9999em;border-radius:9999em}.faces{background-color:#fff}.faces img{width:24px;height:24px;margin-right:2px;background-color:#fff;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%}.faces a.save-count{padding-left:5px;line-height:28px;color:#666}.faces a.save-count:active,.faces a.save-count:focus,.faces a.save-count:hover{color:#333}.tags .tag{font-size:12px}.tags .tag>*{padding:6px 8px}.tags .tag .remove-tag{position:relative;top:0;padding-left:0;font-size:11px}.tags .tag-form{margin:0}.tags .tag-form .tag-input{max-width:70px}.tags .tag-form.activated .tag-input{margin-top:5px}.tt-menu{margin-top:28px;padding:4px 0}.tt-suggestion{font-size:12px;padding:4px 10px}.suggestions .suggestion{padding:10px 0;border-top:1px solid #f5f5f5}.suggestions .suggestion:last-of-type{padding-bottom:0}.suggestions .suggestion .left{width:calc(100% - 94px);vertical-align:top;overflow:hidden}.suggestions .suggestion .right{width:94px;vertical-align:top;text-align:right}.suggestions .suggestion .right img{width:90%}.suggestions .suggestion a.title{display:block;font-size:12px;line-height:1.1;color:#333}.suggestions .suggestion a.title:active,.suggestions .suggestion a.title:focus,.suggestions .suggestion a.title:hover{color:#000}.suggestions .suggestion a.host{display:block;font-size:12px;color:#ccc}.suggestions .suggestion a.host:active,.suggestions .suggestion a.host:focus,.suggestions .suggestion a.host:hover{color:#999}.circle-button{width:32px;height:32px;margin-right:3px;font-size:18px;background-color:#1492ef;color:#fff;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;outline:0 none!important}.circle-button i.fa.fa-twitter{position:relative;font-size:19px;top:-4px;left:-5px}.circle-button i.fa.fa-facebook{font-size:17px;position:relative;top:-4px;left:-2px}.circle-button i.fa.fa-link{font-size:16px;position:relative;top:-5px;left:-5px}.circle-button i.fa.fa-paper-plane{font-size:15px;position:relative;top:-6px;left:-6px}.circle-button i.fa.fa-envelope,.circle-button i.fa.fa-envelope-o{font-size:16px;position:relative;top:-6px;left:-5px}.circle-button.twitter{background-color:#00aced}.circle-button.twitter:active,.circle-button.twitter:focus,.circle-button.twitter:hover{color:#fff!important;background-color:#0087ba}.circle-button.facebook{background-color:#3b5998}.circle-button.facebook:active,.circle-button.facebook:focus,.circle-button.facebook:hover{color:#fff!important;background-color:#2d4373}.circle-button.url{color:#fff;background-color:#999}.circle-button.url:active,.circle-button.url:focus,.circle-button.url:hover{color:#fff!important;background-color:gray}.circle-button.send{color:#fff;background-color:#1492ef}.circle-button.send:active,.circle-button.send:focus,.circle-button.send:hover{color:#fff!important;background-color:#0c5890}.circle-button:active,.circle-button:focus,.circle-button:hover{background-color:#0c5890}a{color:#1492ef;text-decoration:none!important}*{outline:0 none!important}
+    </style>
+    <script src="vendor/jquery.min.js"></script>
+    <script src="vendor/popper.min.js"></script>
+    <script src="vendor/bootstrap-4.0.0/js/bootstrap.min.js"></script>
+    <script src="vendor/typeahead.bundle.js"></script>
+  </head>
+  <body data-link-id>
+    <div class="dialog save" style="display: none;">
+      <div class="box menu">
+        <div class="menu">
+          <div class="left">
+            <div class="explainer"></div>
+          </div>
+          <div class="right">
+            <div class="dropdown show">
+              <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="-1">
+                <i class="fa fa-ellipsis-v"></i>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item open-in-refind-link requires-existing-link">Open link</a>
+                <a class="dropdown-item send-link requires-existing-link">Send link</a>
+                <a class="dropdown-item action-link-chat requires-existing-link">Write comment</a>
+                <div class="dropdown-divider requires-existing-link"></div>
+                <!-- <a class="dropdown-item anchor-action" href="https://refind.com/settings/extensions#default-action" target="_blank">Set a default action</a> -->
+                <a class="dropdown-item anchor-action" href="https://refind.com/settings/extensions" target="_blank">Settings</a>
+                <!-- <div class="dropdown-divider"></div>
+                <a class="dropdown-item anchor-action" href="https://refind.com" target="_blank">Go to Refind</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box actions">
+        <div class="save-actions small">
+          <div class="action read-soon">
+            <div class="middle">
+              <div class="caption">
+                <div class="title">Reading List</div>
+                <div class="description">Secret</div>
+              </div>
+            </div>
+            <div class="right">
+              <button></button>
+            </div>
+          </div>
+          <div class="action save">
+            <div class="middle">
+              <div class="caption">
+                <div class="title">Profile</div>
+                <div class="description">All your public links</div>
+              </div>
+            </div>
+            <div class="right">
+              <button></button>
+            </div>
+          </div>
+
+          <div class="groups"> <!-- A container div --></div>
+
+          <div class="action create-collection">
+            <div class="left">
+              <div class="icon">+</div>
+            </div>
+            <div class="middle">
+              <div class="caption">
+                <div class="title">Create collection</div>
+                <div class="description"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box faces" style="display: none;"></div>
+      <div class="box tags-container" style="display: none;">
+        <div class="tags">
+          <div class="tags-list"></div>
+          <form class="tag-form">
+            <input class="form-control tag-input" autocomplete="off" autocapitalize="off" placeholder="Add tag" />
+            <input class="form-control save-text-input" type="button" style="display: none;" value="Highlight"/>
+          </form>
+        </div>
+      </div>
+      <!-- <div class="box messages border-top" style="display: none;">
+      </div>
+      <div class="box share border-top" style="display: none;">
+        <a class="send-link" title="Send"><button class="btn circle-button send"><i class="fa fa-envelope"></i></button></a>
+        <a class="share-link-facebook"><button class="btn circle-button facebook"><i class="fa fa-facebook"></i></button></a>
+        <a class="share-link-twitter"><button class="btn circle-button twitter"><i class="fa fa-twitter"></i></button></a>
+        <a class="share-link" title="Share link"><button class="btn circle-button url"><i class="fa fa-link"></i></button></a>
+      </div>
+      <div class="box light suggestions" style="display: none;"></div> -->
+    </div>
+    <div class="dialog welcome-login-required" style="display: none;">
+      <div class="box centered blue">
+        <div class="feedback">
+          <div class="sentence" style="max-width: 200px; color: white;">
+            Quickly save links from around the web.
+          </div>
+          <div class="actions" style="margin-top: 20px;">
+            <div class="action">
+              <a class="anchor-action" href="https://refind.com?ref=extension" target="_blank">Continue</a>
+            </div>
+          </div>
+          <div class="sentence" style="max-width: 160px; margin-top: 20px; font-size: 10px; line-height: 1.1;">
+            Refind is free. By continuing, you accept Refind&rsquo;s <a class="anchor-action" href="https://refind.com/terms" target="_blank" style="color: inherit; text-decoration: underline !important;">Terms of Service</a> and <a class="anchor-action" href="https://refind.com/privacy" target="_blank" style="color: inherit; text-decoration: underline !important;">Privacy Policy</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dialog welcome" style="display: none;">
+      <div class="box centered blue">
+        <div class="feedback">
+          <div class="sentence">
+            To save a link, open a website and click this button again.
+          </div>
+          <div class="actions">
+            <div class="action">
+              <a href='https://refind.com' class='anchor-action' target='_blank'>
+                Or, go to Refind
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dialog error" style="display: none;">
+      <div class="box centered blue">
+        <div class="feedback">
+          <div class="title"></div>
+          <div class="sentence"></div>
+          <div class="actions">
+            <div class="action">
+              <a href='https://refind.com' class='anchor-action' target='_blank'>
+                Go to Refind
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dialog reload" style="display: none;">
+      <div class="box centered blue">
+        <div class="feedback">
+          <div class="title"></div>
+          <div class="sentence">Updating your list...<br /><br />Click the button again.</div>
+        </div>
+      </div>
+    </div>
+    <script src="common.min.js"></script>
+    <script src="popup.min.js"></script>
+  </body>
+</html>

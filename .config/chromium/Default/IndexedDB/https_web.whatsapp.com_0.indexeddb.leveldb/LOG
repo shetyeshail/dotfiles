@@ -1,0 +1,8 @@
+2019/05/12-10:14:10.234 10ad Reusing MANIFEST /home/shail/.config/chromium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/05/12-10:14:10.234 10ad Recovering log #18
+2019/05/12-10:14:10.282 10ad Reusing old log /home/shail/.config/chromium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000018.log 
+2019/05/13-19:31:52.192 c2d Level-0 table #22: started
+2019/05/13-19:31:52.223 c2d Level-0 table #22: 1351119 bytes OK
+2019/05/13-19:31:52.227 c2d Delete type=0 #18
+2019/05/13-19:31:52.286 c2d Compacting 1@1 + 1@2 files
+2019/05/13-19:31:52.291 c2d compacted to: files[ 0 1 1 0 0 0 0 ]

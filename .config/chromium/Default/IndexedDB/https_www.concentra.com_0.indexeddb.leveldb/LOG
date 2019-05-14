@@ -1,0 +1,18 @@
+2019/05/01-00:18:24.576 53c1 Reusing MANIFEST /home/shail/.config/chromium/Default/IndexedDB/https_www.concentra.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/05/01-00:18:24.576 53c1 Recovering log #16
+2019/05/01-00:18:24.576 53c1 Reusing old log /home/shail/.config/chromium/Default/IndexedDB/https_www.concentra.com_0.indexeddb.leveldb/000016.log 
+2019/05/01-00:18:25.502 53c1 Current memtable full; waiting...
+2019/05/01-00:18:25.502 de3 Level-0 table #21: started
+2019/05/01-00:18:25.507 de3 Level-0 table #21: 416 bytes OK
+2019/05/01-00:18:25.511 de3 Delete type=0 #16
+2019/05/01-00:18:25.511 de3 Level-0 table #23: started
+2019/05/01-00:18:25.511 de3 Level-0 table #23: 0 bytes OK
+2019/05/01-00:18:25.515 de3 Delete type=0 #20
+2019/05/01-00:18:25.515 de3 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\x05' @ 37 : 1
+2019/05/01-00:18:25.515 de3 Compacting 1@0 + 1@1 files
+2019/05/01-00:18:25.517 de3 Generated table #24@0: 6 keys, 528 bytes
+2019/05/01-00:18:25.517 de3 Compacted 1@0 + 1@1 files => 528 bytes
+2019/05/01-00:18:25.521 de3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/05/01-00:18:25.521 de3 Delete type=2 #18
+2019/05/01-00:18:25.521 de3 Delete type=2 #21
+2019/05/01-00:18:25.521 de3 Manual compaction at level-0 from '\x00\x04\x00\x00\x05' @ 37 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

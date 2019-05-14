@@ -1,0 +1,83 @@
+{
+   "appleappdownload": {
+      "message": "App Store से डाउनलोड करें"
+   },
+   "apps": {
+      "message": "ऐप्लिकेशन"
+   },
+   "change": {
+      "message": "बदलें"
+   },
+   "close": {
+      "message": "बंद करें"
+   },
+   "credits": {
+      "message": "Google Arts & Culture"
+   },
+   "defaultnewtab": {
+      "message": "डिफ़ॉल्ट नया टैब"
+   },
+   "extdescription": {
+      "message": "आपके ब्राउज़र टैब में Google Arts & Culture की उत्कृष्ट कृतियां"
+   },
+   "extname": {
+      "message": "Google Arts & Culture"
+   },
+   "extshortname": {
+      "message": "Arts & Culture"
+   },
+   "optionsappsbtn": {
+      "message": "ऐप्लिकेशन दिखाएं बटन"
+   },
+   "optionsappsbtndesc": {
+      "message": "Chrome का ऐप्लिकेशन पेज खोलता है"
+   },
+   "optionsinterface": {
+      "message": "इंटरफ़ेस सेटिंग"
+   },
+   "optionsntpbtn": {
+      "message": "डिफ़ॉल्ट नया टैब दिखाएं बटन"
+   },
+   "optionsntpbtndesc": {
+      "message": "Chrome का डिफ़ॉल्ट नया टैब खोलता है"
+   },
+   "optionstopsitesbtn": {
+      "message": "प्रमुख साइटें दिखाएं बटन"
+   },
+   "optionstopsitesbtndesc": {
+      "message": "आपके द्वारा सबसे ज़्यादा विज़िट की गई वेबसाइटों की एक झटपट सूची खोलता है"
+   },
+   "pagetitle": {
+      "message": "नया टैब"
+   },
+   "playappdownload": {
+      "message": "इसे Google Play से पाएं"
+   },
+   "showappsbutton": {
+      "message": "ऐप्लिकेशन दिखाएं बटन"
+   },
+   "showdefaulttablink": {
+      "message": "डिफ़ॉल्ट नया टैब दिखाएं बटन"
+   },
+   "showtopsitesbutton": {
+      "message": "प्रमुख साइटें दिखाएं बटन"
+   },
+   "topsites": {
+      "message": "प्रमुख साइटें"
+   },
+   "turnovergroup": {
+      "message": "कलाकृति बदलें..."
+   },
+   "turnovermodealways": {
+      "message": "प्रत्येक नए टैब में"
+   },
+   "turnovermodedaily": {
+      "message": "दैनिक"
+   },
+   "unknown": {
+      "message": "अज्ञात कलाकार"
+   },
+   "untitled": {
+      "message": "शीर्षक रहित"
+   }
+}

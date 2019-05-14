@@ -1,0 +1,83 @@
+{
+   "appleappdownload": {
+      "message": "Stáhnout z App Store"
+   },
+   "apps": {
+      "message": "Aplikace"
+   },
+   "change": {
+      "message": "Změnit"
+   },
+   "close": {
+      "message": "Zavřít"
+   },
+   "credits": {
+      "message": "Google Arts & Culture"
+   },
+   "defaultnewtab": {
+      "message": "Výchozí nová karta"
+   },
+   "extdescription": {
+      "message": "Mistrovská díla z projektu Google Arts & Culture na kartách vašeho prohlížeče"
+   },
+   "extname": {
+      "message": "Google Arts & Culture"
+   },
+   "extshortname": {
+      "message": "Arts & Culture"
+   },
+   "optionsappsbtn": {
+      "message": "Zobrazit tlačítko aplikací"
+   },
+   "optionsappsbtndesc": {
+      "message": "Otevře stránku aplikací Chromu."
+   },
+   "optionsinterface": {
+      "message": "Nastavení rozhraní"
+   },
+   "optionsntpbtn": {
+      "message": "Zobrazit tlačítko výchozí nové karty"
+   },
+   "optionsntpbtndesc": {
+      "message": "Otevře výchozí novou kartu Chromu."
+   },
+   "optionstopsitesbtn": {
+      "message": "Zobrazit tlačítko nejnavštěvovanějších stránek"
+   },
+   "optionstopsitesbtndesc": {
+      "message": "Otevře rychlý seznam nejnavštěvovanějších webových stránek."
+   },
+   "pagetitle": {
+      "message": "Nová karta"
+   },
+   "playappdownload": {
+      "message": "Stáhnout z Google Play"
+   },
+   "showappsbutton": {
+      "message": "Zobrazit tlačítko aplikací"
+   },
+   "showdefaulttablink": {
+      "message": "Zobrazit tlačítko výchozí nové karty"
+   },
+   "showtopsitesbutton": {
+      "message": "Zobrazit tlačítko nejnavštěvovanějších stránek"
+   },
+   "topsites": {
+      "message": "Nejnavštěvovanější stránky"
+   },
+   "turnovergroup": {
+      "message": "Změnit umělecké dílo..."
+   },
+   "turnovermodealways": {
+      "message": "Na každé nové kartě"
+   },
+   "turnovermodedaily": {
+      "message": "Denně"
+   },
+   "unknown": {
+      "message": "Neznámý umělec"
+   },
+   "untitled": {
+      "message": "Bez názvu"
+   }
+}

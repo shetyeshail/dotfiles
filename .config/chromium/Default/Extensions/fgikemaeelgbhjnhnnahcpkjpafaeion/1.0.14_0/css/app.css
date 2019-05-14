@@ -1,0 +1,249 @@
+body {
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  background: white no-repeat center center fixed;
+  -webkit-font-smoothing: antialiased;
+  -webkit-background-size: cover;
+  background-position: top left;
+  background-size: cover;
+  background-image: url('../backgrounds/white.jpg');
+  transition:200ms ease;
+  opacity:0;
+  margin:0;
+  text-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+
+.screen-readers {
+  text-indent: -1000px;
+}
+
+.wrapper {
+  position: relative;
+  width:600px;
+  margin:0 auto;
+  padding: 100px 0;
+}
+
+.hidden {
+  display:none;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+a {
+	color: #fff;
+  text-decoration:none;
+}
+
+.shown {
+  opacity:1;
+}
+
+/* Avatar & Links */
+
+.nav {
+  position: fixed;
+  top:20px;
+  right:20px;
+}
+
+.nav.left {
+  right:auto;
+  left:20px;
+}
+
+.nav.bottom {
+  top:auto;
+  bottom:20px;
+}
+
+.nav a {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.open-apps {
+  background:url('../images/apps.svg');
+  background-size: 24px;
+  height:24px;
+  width:24px;
+  opacity:0.6;
+  display:block;
+  -webkit-transition:all 200ms ease;
+}
+
+.open-apps:hover {
+  opacity: 1;
+  -webkit-transform:scale(1.1);
+}
+
+/* Add Task input */
+
+#input {
+  position: relative;
+}
+
+.addTask {
+  font-size:3em;
+  width:100%;
+  margin-right:100px;
+  box-sizing:border-box;
+}
+
+input {
+  -webkit-font-smoothing: antialiased;
+	font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	line-height: 1.2em;
+	background: 0;
+	border: 0;
+	border-bottom: 3px solid #fff;
+	padding-bottom: 0.2em;
+	outline: none;
+	color: #fff;
+	text-align: left;
+	opacity: 1;
+	margin-bottom: 2em;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(255,255,255,0.6);
+}
+
+/* List Switcher */
+
+select,
+.select-label {
+  position:absolute;
+  right: 0;
+  top:52px;
+  color: white;
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: rgba(0,0,0,0.3) url(../images/arrow.svg) no-repeat;
+  background-size: 5px;
+  background-position: center right 10px;
+  padding: 4px 20px 3px 10px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  display: inline-block;
+  box-sizing: border-box;
+  line-height: 16px;
+}
+
+option {
+  text-transform: none;
+}
+
+.select-label {
+  pointer-events:none;
+  opacity:0.6;
+  max-width: 200px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+select:focus + .select-label,
+select:hover + .select-label {
+  opacity:1;
+}
+
+select:focus + .select-label {
+  text-shadow: 0 0 6px rgba(255,255,255,0.3);
+}
+
+select {
+  opacity:0;
+}
+
+/* Task List */
+
+.tasks {
+  font-size: 2em;
+  font-weight: 400;
+  list-style:none;
+  margin:0;
+  padding:0;
+  position: relative;
+}
+
+.tasks li {
+  padding: 0.5em 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  cursor:pointer;
+  overflow:hidden;
+  transition:all 200ms ease;
+}
+
+.tasks li.completed {
+  height:0;
+  padding:0;
+  border:none;
+}
+
+.tasks li:hover {
+  text-decoration: line-through;
+}
+
+.tasks li input {
+  float:left;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+
+.tasks.loading {
+  margin: 0;
+}
+
+.tasks.loading:before {
+  position: absolute;
+  left: 50%;
+  margin-left: -12px;
+  margin-top: 12px;
+  display: block;
+  content: '';
+  cursor: wait;
+  border-radius: 24px;
+  border: 2px solid rgba(255,255,255,0.9);
+  border-top: 2px solid rgba(0,0,0,0);
+  border-left: 2px solid rgba(0,0,0,0);
+  width: 24px;
+  height: 24px;
+  -webkit-animation: loading .4s infinite linear;
+}
+
+.tasks.loading li {
+  opacity: 0;
+}
+
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}

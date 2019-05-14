@@ -1,0 +1,88 @@
+<!Doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>New Tab</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="../css/app.css">
+  <link rel="stylesheet" href="../css/backgrounds.css">
+  <link rel="stylesheet" href="../css/login.css">
+
+  <script type="text/javascript" src="../js/vendor/moment.min.js"></script>
+  <script type="text/javascript" src="../js/vendor/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/vendor/lodash.underscore.min.js"></script>
+  <script type="text/javascript" src="../js/vendor/backbone.min.js"></script>
+  <script type="text/javascript" src="../js/vendor/wunderbits.core.min.js"></script>
+  <script type="text/javascript" src="../js/vendor/wunderlist.sdk.min.js"></script>
+  <script type="text/javascript" src="../js/ga.js"></script>
+  <script type="text/javascript" src="../js/namespace.js"></script>
+  <script type="text/javascript" src="../js/langData.js"></script>
+  <script type="text/javascript" src="../js/localization.js"></script>
+  <script type="text/javascript" src="../js/apiActions.js"></script>
+  <script type="text/javascript" src="../js/LoginView.js"></script>
+  <script type="text/javascript" src="../js/AppView.js"></script>
+  <script type="text/javascript" src="../js/wundertab.js"></script>
+</head>
+<body>
+  <div class="screen-readers">
+    <localized rel="wunderlist_icon_heading">Wunderlist</localized> - <localized rel="label_new_tab">New Tab Extension</localized>
+  </div>
+	<div class="wrapper">
+    <div id="login" class="hidden">
+      <div class="container">
+        <div class="logo">
+          <div title="Wunderlist" class="image" aria-role="img"></div>
+          <h1><localized rel="label_new_tab">New Tab Extension</localized></h1>
+          <p>
+            <strong>
+              <localized rel="settings_version">Version</localized> <span class="version-number"></span>
+            </strong>
+          </p>
+        </div>
+        <div class="login-details">
+          <div class="loading"></div>
+          <button class="blue login-button">
+            <localized rel="button_sign_in">Login</localized>
+          </button>
+        </div>
+      </div>
+      <footer>
+        <ul>
+          <li><a href="https://www.wunderlist.com/home" target="_blank"><localized rel="settings_visit_website">Visit Website</localized></a></li>
+          <li><a href="https://www.wunderlist.com/download" target="_blank"><localized rel="button_download">Download Wunderlist</localized></a></li>
+          <li><a href="https://chrome.google.com/webstore/detail/wunderlist-new-tab-extens/fgikemaeelgbhjnhnnahcpkjpafaeion/reviews" target="_blank"><localized rel="rate_app_button_yes">Rate Wunderlist Now</localized></a></li>
+          <li><a href="https://support.wunderlist.com" target="_blank"><localized rel="settings_get_help">Give Feedback</localized></a></li>
+        </ul>
+      </footer>
+    </div>
+
+    <div id="app" class="hidden">
+      <div id="input">
+        <h2 class="input-label"></h2>
+        <input type="text" class="addTask" maxlength="255" data-key-placeholder="placeholder_add_task_mobile" data-key-title="placeholder_add_task_mobile" tabindex="0">
+        <select class="list-chooser" tabindex="0"></select>
+        <div class="select-label"></div>
+      </div>
+      <ul class="tasks"></ul>
+      <div class="nav left">
+        <a href="#" title="Navigate to Chrome Apps" class="open-apps"></a>
+      </div>
+      <div class="nav bottom">
+        <a class="love-wunderlist" href="https://chrome.google.com/webstore/detail/wunderlist-new-tab-extens/fgikemaeelgbhjnhnnahcpkjpafaeion/reviews" target="_blank">
+          <localized rel="rate_label">Love Wunderlist?</localized>
+        </a>
+      </div>
+      <div class="nav">
+        <img title="User Avatar" class="avatar"/>
+        <a class="logout-button" data-key-aria-label-"button_log_out" tabindex="0"><localized rel="button_log_out">Sign Out</localize></a>
+      </div>
+      <div class="top-sites nav bottom left">
+        <ul>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "container": "tab",
+         "urls": [ "http://thinkery.me" ],
+         "web_url": "http://thinkery.me"
+      }
+   },
+   "description": "your brain, organized.",
+   "icons": {
+      "128": "128.png",
+      "16": "16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDET4bCkl3P9h+W0cJeMiGle5f9Q4ePZh1P3UWHW+1u9N1TM6qa1V4xstLeoOheWx6Uo+7ULDK8GCkpYAU59SfIimRBsWSoYcyl4YEyob3pFB6G3uK3KdhkdXVXkjEM/e8RhXyPqbTQGkbbRBPy3qGs/Thohqrm930iV39uXjcvOwIDAQAB",
+   "name": "thinkery",
+   "permissions": [ "background" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

@@ -1,0 +1,21 @@
+2019/05/05-01:22:50.729 70bc Reusing MANIFEST /home/shail/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/05/05-01:22:50.729 70bc Recovering log #97
+2019/05/05-01:22:50.738 70bc Reusing old log /home/shail/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000097.log 
+2019/05/05-01:41:57.627 6f12 Level-0 table #101: started
+2019/05/05-01:41:57.651 6f12 Level-0 table #101: 2599578 bytes OK
+2019/05/05-01:41:57.656 6f12 Delete type=0 #97
+2019/05/05-13:44:13.308 6f12 Level-0 table #103: started
+2019/05/05-13:44:13.329 6f12 Level-0 table #103: 2201098 bytes OK
+2019/05/05-13:44:13.333 6f12 Delete type=0 #100
+2019/05/05-17:37:43.318 6f12 Level-0 table #105: started
+2019/05/05-17:37:43.339 6f12 Level-0 table #105: 2204761 bytes OK
+2019/05/05-17:37:43.344 6f12 Delete type=0 #102
+2019/05/05-17:37:43.345 6f12 Compacting 4@0 + 1@1 files
+2019/05/05-17:37:43.380 6f12 Generated table #106@0: 16 keys, 33771 bytes
+2019/05/05-17:37:43.380 6f12 Compacted 4@0 + 1@1 files => 33771 bytes
+2019/05/05-17:37:43.383 6f12 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/05/05-17:37:43.383 6f12 Delete type=2 #101
+2019/05/05-17:37:43.383 6f12 Delete type=2 #96
+2019/05/05-17:37:43.383 6f12 Delete type=2 #98
+2019/05/05-17:37:43.384 6f12 Delete type=2 #103
+2019/05/05-17:37:43.384 6f12 Delete type=2 #105

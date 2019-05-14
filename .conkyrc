@@ -1,0 +1,103 @@
+conky.config = {
+ 
+    background = true,
+    use_xft = true,
+    font = 'liberation mono:size=8',
+    xftalpha = 0.8,
+    update_interval = 1,
+    total_run_times = 0,
+    own_window = true,
+    own_window_transparent = true,
+    own_window_type = 'desktop',
+    own_window_class = 'Conky',
+    own_window_argb_visual = true,
+    own_window_colour = '#000000',
+    own_window_argb_value = 150,
+    own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+    double_buffer = true,
+    draw_shades = false,
+    draw_outline = false,
+    draw_borders = false,
+    draw_graph_borders = true,
+    stippled_borders = 0,
+    border_width = 0,
+    default_color = 'grey',
+    default_shade_color = 'grey',
+    default_outline_color = 'black',
+    alignment = 'top_middle',
+    gap_x = 5,
+    gap_y = 0,
+    no_buffers = true,
+    cpu_avg_samples = 2,
+    net_avg_samples = 2,
+    override_utf8_locale = true,
+    use_spacer = 'right',
+    minimum_size = 1000,
+    maximum_width = 1080,
+        minimum_height = 800,
+    uppercase = true,
+ 
+ 
+};
+ 
+conky.text = [[
+#leet chars: ┤┤└└┴┴┐┐││┘┘┌┌├├┬┬┼┼┴┴── ││ ▽▼△▲▵▴▾▿
+${alignc}                                                                                                                
+${alignc}                                                                                                          
+${alignc}  
+${alignc}  
+${alignc}  
+${alignc}  
+${alignc}  
+${alignc}${offset -62}${font xftfont monospace:size=8}${nodename}${font}-────────────────────
+${alignc}${offset -210}┌──────-${font xftfont monospace:size=8}${uid_name 1000}${font}-─────┘
+${alignc}${offset -169}├─- distro  < ${exec cat /etc/issue.net} >
+${alignc}${offset -187}├─- kernel  < ${kernel} >
+${alignc}${offset -162}├─- uptime  ${exec /home/u0xpsec/.bin/uptime_conky.sh}
+${alignc}${offset -229}└─- updates < ${execi 360 aptitude search "~U" | wc -l | tail} >
+${alignc}
+${alignc}
+${alignr}────────- < ${exec /home/u0xpsec/.bin/get_gpu.sh gpu} >
+${alignr} < ${exec /home/u0xpsec/.bin/get_gpu.sh res} >
+${alignc}
+${alignc}
+${alignc}${offset -180}< ${exec cat /etc/default/locale | grep "LANG=" | cut -d"\"" -f2} > -───────
+${alignc}
+${alignc}
+${alignc}
+${alignc}
+${alignc}
+${alignc}
+${alignc}
+${alignc}
+${alignc}
+${alignc}
+${alignc}${offset -245}    < ${exec sensors | grep "fan1" | cut -d" " -f9-} > -─────────────
+${alignc}
+${alignc}
+${alignr} ───────────- < $mem/$memmax >  < $memperc% > used    
+${alignc}${offset -200}temperatures -────────────────
+${alignc}${offset -230}CPU0 < ${execi 5 sensors|grep 'Core 0'| awk -F'+' '{print $2}' | awk -F'.' '{print $1}'} °C >
+${alignc}${offset -230}CPU1 < ${execi 5 sensors|grep 'Core 1'| awk -F'+' '{print $2}' | awk -F'.' '{print $1}'} °C >
+${alignr}──────────- ${exec /home/u0xpsec/.bin/is_connected.sh}
+${alignc}${offset 21} < ${execi 1000 cat /proc/cpuinfo|grep 'model name'|sed -e 's/model name.*: //'| uniq | cut -c 1-25} > -────────────                                         < ${upspeedgraph wlp3s0 12,120 06E9F8 2104FA} >
+${alignc}${offset 49}  used/freq                                                                  < ${downspeedgraph wlp3s0 12,120 FFFF00 DD3A21} >
+${alignc}${offset -250} < ${cpu cpu 0}% / ${freq 0}mhz > cpu0
+${alignc}${offset -250} < ${cpu cpu 1}% / ${freq 1}mhz > cpu1
+${alignc}${offset -250} < ${cpu cpu 2}% / ${freq 2}mhz > cpu2
+${alignc}${offset -250} < ${cpu cpu 3}% / ${freq 3}mhz > cpu3
+${alignc}
+${alignc}
+${alignc}
+${alignr}${offset 0}volume: ${exec amixer sget Master | grep 'Right:' | awk -F'[][]' '{ print $2 }'} -────────────                                            ─────- /home < ${fs_bar 5,120 /home} >
+${alignr}${offset 0} /root < ${fs_bar 5,120 /} >
+${alignr}${offset 0} /var < ${fs_bar 5,120 /var} >
+${alignr}
+${alignc}
+${alignr}───────- /backup < ${fs_bar 5,120 /media/u0xpsec/2a598ea5-f473-4fdf-8aa3-17b2f0ce216d} >
+${alignc}
+${alignc}
+${alignc}
+${alignr}${offset 0}${exec /home/u0xpsec/.bin/get_battery.sh}
+ 
+]];

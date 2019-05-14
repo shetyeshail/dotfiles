@@ -1,0 +1,92 @@
+<!DOCTYPE html><html><head>
+  <title></title>
+  <meta name="google" content="notranslate">
+
+  <script src="./polyfills/custom-elements-es5-adapter.js"></script>
+  <script src="./polyfills/web-animations-next-lite.min.js"></script>
+
+  <link rel="stylesheet" href="style_compiled.css">
+
+  <style is="custom-style">
+    html {
+      --primary-color: var(--paper-indigo-500);
+      --primary-text-color: black;
+      --paper-radio-button-label-spacing: 16px;
+    }
+
+    body {
+      font-size: 13px;
+      margin: 20px;
+      overflow: auto;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      -webkit-touch-callout: none;
+    }
+
+    paper-checkbox {
+      padding: 0 14px 0 11px;
+      display: block;
+    }
+
+    paper-checkbox:first-of-type {
+      margin-top: -16px;
+    }
+
+    h4 {
+      margin: 10px 0;
+    }
+
+    paper-checkbox label {
+      margin-top: 16px;
+      margin-left: 8px;
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+</head>
+<body unresolved>
+
+  <section>
+
+    <h4 data-msg="turnoverGroup"></h4>
+
+    <paper-radio-group>
+      <paper-radio-button name="turnoverModeDaily">
+        <span data-msg="turnoverModeDaily"></span>
+      </paper-radio-button>
+      <paper-radio-button name="turnoverModeAlways">
+        <span data-msg="turnoverModeAlways"></span>
+      </paper-radio-button>
+    </paper-radio-group>
+
+  </section>
+
+  <section>
+
+    <h4 data-msg="optionsInterface"></h4>
+
+    <paper-checkbox id="showAppsButton">
+      <label>
+        <h4 data-msg="optionsAppsBtn"></h4>
+        <div data-msg="optionsAppsBtnDesc"></div>
+      </label>
+    </paper-checkbox>
+
+    <paper-checkbox id="showNtpButton">
+      <label>
+        <h4 data-msg="optionsNtpBtn"></h4>
+        <div data-msg="optionsNtpBtnDesc"></div>
+      </label>
+    </paper-checkbox>
+
+    <paper-checkbox id="showTopSitesButton">
+      <label>
+        <h4 data-msg="optionsTopSitesBtn"></h4>
+        <div data-msg="optionsTopSitesBtnDesc"></div>
+      </label>
+    </paper-checkbox>
+
+  </section>
+
+  <script src="options_compiled_options.js"></script>
+
+</body></html>

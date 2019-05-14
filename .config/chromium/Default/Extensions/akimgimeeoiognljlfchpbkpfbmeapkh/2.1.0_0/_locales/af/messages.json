@@ -1,0 +1,83 @@
+{
+   "appleappdownload": {
+      "message": "Laai in die App Store af"
+   },
+   "apps": {
+      "message": "Programme"
+   },
+   "change": {
+      "message": "Verander"
+   },
+   "close": {
+      "message": "Maak toe"
+   },
+   "credits": {
+      "message": "Google Arts & Culture"
+   },
+   "defaultnewtab": {
+      "message": "Verstek- nuwe oortjie"
+   },
+   "extdescription": {
+      "message": "Kunsmeesterwerke vanaf Google Arts & Culture in jou blaaieroortjies"
+   },
+   "extname": {
+      "message": "Google Arts & Culture"
+   },
+   "extshortname": {
+      "message": "Arts & Culture"
+   },
+   "optionsappsbtn": {
+      "message": "Wys programme-knoppie"
+   },
+   "optionsappsbtndesc": {
+      "message": "Maak Chrome se programbladsy oop"
+   },
+   "optionsinterface": {
+      "message": "Koppelvlakinstellings"
+   },
+   "optionsntpbtn": {
+      "message": "Wys verstek- nuwe oortjie-knoppie"
+   },
+   "optionsntpbtndesc": {
+      "message": "Maak Chrome se verstek- nuwe oortjie oop"
+   },
+   "optionstopsitesbtn": {
+      "message": "Wys topwerwe-knoppie"
+   },
+   "optionstopsitesbtndesc": {
+      "message": "Maak 'n snellys oop van die webwerwe wat jy die meeste besoek het"
+   },
+   "pagetitle": {
+      "message": "Nuwe oortjie"
+   },
+   "playappdownload": {
+      "message": "Kry dit in Google Play"
+   },
+   "showappsbutton": {
+      "message": "Wys programme-knoppie"
+   },
+   "showdefaulttablink": {
+      "message": "Wys verstek- nuwe oortjie-knoppie"
+   },
+   "showtopsitesbutton": {
+      "message": "Wys topwerwe-knoppie"
+   },
+   "topsites": {
+      "message": "Topwerwe"
+   },
+   "turnovergroup": {
+      "message": "Verander kunswerk …"
+   },
+   "turnovermodealways": {
+      "message": "In elke nuwe oortjie"
+   },
+   "turnovermodedaily": {
+      "message": "Daagliks"
+   },
+   "unknown": {
+      "message": "Onbekende kunstenaar"
+   },
+   "untitled": {
+      "message": "Titelloos"
+   }
+}

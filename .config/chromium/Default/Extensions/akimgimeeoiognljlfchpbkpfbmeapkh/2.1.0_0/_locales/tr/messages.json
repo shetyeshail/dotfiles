@@ -1,0 +1,83 @@
+{
+   "appleappdownload": {
+      "message": "App Store'dan indirin"
+   },
+   "apps": {
+      "message": "Uygulamalar"
+   },
+   "change": {
+      "message": "Değiştir"
+   },
+   "close": {
+      "message": "Kapat"
+   },
+   "credits": {
+      "message": "Google Arts & Culture"
+   },
+   "defaultnewtab": {
+      "message": "Varsayılan yeni sekme"
+   },
+   "extdescription": {
+      "message": "Google Arts & Culture'dan sanat başyapıtları tarayıcınızın sekmelerinde"
+   },
+   "extname": {
+      "message": "Google Arts & Culture"
+   },
+   "extshortname": {
+      "message": "Arts & Culture"
+   },
+   "optionsappsbtn": {
+      "message": "Uygulamalar düğmesini göster"
+   },
+   "optionsappsbtndesc": {
+      "message": "Chrome'un uygulamalar sayfasını açar"
+   },
+   "optionsinterface": {
+      "message": "Arayüz ayarları"
+   },
+   "optionsntpbtn": {
+      "message": "Varsayılan yeni sekme düğmesini göster"
+   },
+   "optionsntpbtndesc": {
+      "message": "Chrome'un varsayılan yeni sekmesini açar"
+   },
+   "optionstopsitesbtn": {
+      "message": "Sık ziyaret edilen siteler düğmesini göster"
+   },
+   "optionstopsitesbtndesc": {
+      "message": "En çok ziyaret ettiğiniz web sitelerini hızlıca görebileceğiniz bir liste açar"
+   },
+   "pagetitle": {
+      "message": "Yeni Sekme"
+   },
+   "playappdownload": {
+      "message": "Google Play'den edinin"
+   },
+   "showappsbutton": {
+      "message": "Uygulamalar düğmesini göster"
+   },
+   "showdefaulttablink": {
+      "message": "Varsayılan yeni sekme düğmesini göster"
+   },
+   "showtopsitesbutton": {
+      "message": "Sık ziyaret edilen siteler düğmesini göster"
+   },
+   "topsites": {
+      "message": "Sık ziyaret edilen siteler"
+   },
+   "turnovergroup": {
+      "message": "Sanat eserini değiştir..."
+   },
+   "turnovermodealways": {
+      "message": "Her yeni sekmede"
+   },
+   "turnovermodedaily": {
+      "message": "Günlük"
+   },
+   "unknown": {
+      "message": "Bilinmeyen sanatçı"
+   },
+   "untitled": {
+      "message": "Adsız"
+   }
+}

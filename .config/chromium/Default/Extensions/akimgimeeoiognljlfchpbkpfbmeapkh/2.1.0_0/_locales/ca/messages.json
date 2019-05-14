@@ -1,0 +1,83 @@
+{
+   "appleappdownload": {
+      "message": "Baixa de l'App Store"
+   },
+   "apps": {
+      "message": "Aplicacions"
+   },
+   "change": {
+      "message": "Canvia"
+   },
+   "close": {
+      "message": "Tanca"
+   },
+   "credits": {
+      "message": "Google Arts & Culture"
+   },
+   "defaultnewtab": {
+      "message": "Nova pestanya predeterminada"
+   },
+   "extdescription": {
+      "message": "Obres mestres de Google Arts & Culture a les pestanyes del navegador"
+   },
+   "extname": {
+      "message": "Google Arts & Culture"
+   },
+   "extshortname": {
+      "message": "Arts & Culture"
+   },
+   "optionsappsbtn": {
+      "message": "Mostra el botó de les aplicacions"
+   },
+   "optionsappsbtndesc": {
+      "message": "Obre la pàgina d'aplicacions de Chrome"
+   },
+   "optionsinterface": {
+      "message": "Configuració de la interfície"
+   },
+   "optionsntpbtn": {
+      "message": "Mostra el botó de pestanya nova predeterminat"
+   },
+   "optionsntpbtndesc": {
+      "message": "Obre la nova pestanya predeterminada de Chrome"
+   },
+   "optionstopsitesbtn": {
+      "message": "Mostra el botó de llocs més freqüents"
+   },
+   "optionstopsitesbtndesc": {
+      "message": "Obre una llista ràpida dels llocs web més visitats"
+   },
+   "pagetitle": {
+      "message": "Pestanya nova"
+   },
+   "playappdownload": {
+      "message": "Baixa de Google Play"
+   },
+   "showappsbutton": {
+      "message": "Mostra el botó de les aplicacions"
+   },
+   "showdefaulttablink": {
+      "message": "Mostra el botó de nova pestanya predeterminada"
+   },
+   "showtopsitesbutton": {
+      "message": "Mostra el botó de llocs principals"
+   },
+   "topsites": {
+      "message": "Llocs més freqüents"
+   },
+   "turnovergroup": {
+      "message": "Canvia l'obra d'art..."
+   },
+   "turnovermodealways": {
+      "message": "En totes les pestanyes noves"
+   },
+   "turnovermodedaily": {
+      "message": "Diàriament"
+   },
+   "unknown": {
+      "message": "Artista desconegut"
+   },
+   "untitled": {
+      "message": "Sense títol"
+   }
+}

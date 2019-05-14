@@ -1,0 +1,83 @@
+{
+   "appleappdownload": {
+      "message": "Im App Store herunterladen"
+   },
+   "apps": {
+      "message": "Apps"
+   },
+   "change": {
+      "message": "Ändern"
+   },
+   "close": {
+      "message": "Schließen"
+   },
+   "credits": {
+      "message": "Google Arts & Culture"
+   },
+   "defaultnewtab": {
+      "message": "Neuer Standardtab"
+   },
+   "extdescription": {
+      "message": "Meisterwerke aus der Kunst von Google Arts & Culture in Ihren Browsertabs"
+   },
+   "extname": {
+      "message": "Google Arts & Culture"
+   },
+   "extshortname": {
+      "message": "Arts & Culture"
+   },
+   "optionsappsbtn": {
+      "message": "Apps-Schaltfläche anzeigen"
+   },
+   "optionsappsbtndesc": {
+      "message": "Öffnet die Apps-Seite von Chrome"
+   },
+   "optionsinterface": {
+      "message": "Einstellungen für die Benutzeroberfläche"
+   },
+   "optionsntpbtn": {
+      "message": "Schaltfläche für neuen Standardtab anzeigen"
+   },
+   "optionsntpbtndesc": {
+      "message": "Öffnet neuen Standardtab von Chrome"
+   },
+   "optionstopsitesbtn": {
+      "message": "Schaltfläche für Top-Websites anzeigen"
+   },
+   "optionstopsitesbtndesc": {
+      "message": "Öffnet eine Liste der am häufigsten besuchten Websites"
+   },
+   "pagetitle": {
+      "message": "Neuer Tab"
+   },
+   "playappdownload": {
+      "message": "Bei Google Play herunterladen"
+   },
+   "showappsbutton": {
+      "message": "Apps-Schaltfläche anzeigen"
+   },
+   "showdefaulttablink": {
+      "message": "Schaltfläche für neuen Standardtab anzeigen"
+   },
+   "showtopsitesbutton": {
+      "message": "Schaltfläche für Top-Websites anzeigen"
+   },
+   "topsites": {
+      "message": "Top-Websites"
+   },
+   "turnovergroup": {
+      "message": "Kunstwerk ändern..."
+   },
+   "turnovermodealways": {
+      "message": "In jedem neuen Tab"
+   },
+   "turnovermodedaily": {
+      "message": "Täglich"
+   },
+   "unknown": {
+      "message": "Unbekannter Künstler"
+   },
+   "untitled": {
+      "message": "Unbenannt"
+   }
+}

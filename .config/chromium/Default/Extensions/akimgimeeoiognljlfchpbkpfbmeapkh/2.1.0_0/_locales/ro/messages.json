@@ -1,0 +1,83 @@
+{
+   "appleappdownload": {
+      "message": "Descărcați din App Store"
+   },
+   "apps": {
+      "message": "Aplicații"
+   },
+   "change": {
+      "message": "Modificați"
+   },
+   "close": {
+      "message": "Închideți"
+   },
+   "credits": {
+      "message": "Google Arts & Culture"
+   },
+   "defaultnewtab": {
+      "message": "Filă nouă prestabilită"
+   },
+   "extdescription": {
+      "message": "Capodopere de la Google Arts & Culture în filele browserului dvs."
+   },
+   "extname": {
+      "message": "Google Arts & Culture"
+   },
+   "extshortname": {
+      "message": "Arts & Culture"
+   },
+   "optionsappsbtn": {
+      "message": "Afișează butonul Aplicații"
+   },
+   "optionsappsbtndesc": {
+      "message": "Deschide pagina cu aplicații Chrome"
+   },
+   "optionsinterface": {
+      "message": "Setările pentru interfață"
+   },
+   "optionsntpbtn": {
+      "message": "Afișează butonul Filă nouă prestabilită"
+   },
+   "optionsntpbtndesc": {
+      "message": "Deschide fila nouă prestabilită în Chrome"
+   },
+   "optionstopsitesbtn": {
+      "message": "Afișează butonul Cele mai accesate site-uri"
+   },
+   "optionstopsitesbtndesc": {
+      "message": "Deschide o listă rapidă cu cele mai accesate site-uri"
+   },
+   "pagetitle": {
+      "message": "Filă nouă"
+   },
+   "playappdownload": {
+      "message": "Descărcați de pe Google Play"
+   },
+   "showappsbutton": {
+      "message": "Afișează butonul Aplicații"
+   },
+   "showdefaulttablink": {
+      "message": "Afișează butonul Filă nouă prestabilită"
+   },
+   "showtopsitesbutton": {
+      "message": "Afișează butonul Cele mai accesate site-uri"
+   },
+   "topsites": {
+      "message": "Cele mai accesate site-uri"
+   },
+   "turnovergroup": {
+      "message": "Schimbați opera de artă..."
+   },
+   "turnovermodealways": {
+      "message": "În fiecare filă nouă"
+   },
+   "turnovermodedaily": {
+      "message": "Zilnic"
+   },
+   "unknown": {
+      "message": "Artist necunoscut"
+   },
+   "untitled": {
+      "message": "Fără titlu"
+   }
+}

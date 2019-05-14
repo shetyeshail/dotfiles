@@ -1,0 +1,98 @@
+body:before {
+  transition:200ms ease;
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.bg-03 {
+  background-size: 128px 128px;
+  background-repeat: repeat;
+}
+
+.bg-04:before {
+  background: -webkit-radial-gradient(center, rgba(59,95,93,0.3), rgba(0,0,0,0));
+}
+
+.bg-05:before {
+  background: -webkit-radial-gradient(center, rgba(82,51,55,0.3), rgba(0,0,0,0));
+}
+
+.bg-06:before {
+  background: -webkit-radial-gradient(center, rgba(40,99,117,0.35), rgba(0,0,0,0));
+}
+
+.bg-07:before {
+  background: -webkit-radial-gradient(center, rgba(39,75,95,0.35), rgba(0,0,0,0));
+}
+
+.bg-08:before {
+  background: -webkit-radial-gradient(center, rgba(43,70,87,0.4), rgba(0,0,0,0));
+}
+
+.bg-09:before {
+  background: -webkit-radial-gradient(center, rgba(39,104,132,0.5), rgba(0,0,0,0));
+}
+
+.bg-13:before {
+  background: -webkit-radial-gradient(center, rgba(64,102,115,0.6), rgba(0,0,0,0));
+}
+
+.bg-14:before {
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(17,70,86, 0.3));
+}
+
+.bg-15:before {
+  background: -webkit-radial-gradient(center, rgba(86,134,96,0.6), rgba(0,0,0,0));
+}
+
+.bg-19:before {
+  background: -webkit-radial-gradient(center, rgba(42,105,112,0.6), rgba(0,0,0,0));
+}
+
+.bg-20:before {
+  background: -webkit-radial-gradient(center, rgba(61,45,56,0.35), rgba(0,0,0,0));
+}
+
+.bg-21:before {
+  background: -webkit-radial-gradient(center 200px, rgba(149,95,61,0.5), rgba(0,0,0,0));
+}
+
+.bg-22:before {
+  background: -webkit-radial-gradient(center 300px, rgba(8,76,107,0.6), rgba(0,0,0,0));
+}
+
+.bg-23:before {
+  background: -webkit-radial-gradient(center, rgba(84,58,43,0.5), rgba(0,0,0,0));
+}
+
+.bg-24:before {
+  background: -webkit-radial-gradient(center, rgba(157,115,40,0.4), rgba(0,0,0,0));
+}
+
+.bg-25:before {
+  background: -webkit-radial-gradient(center, rgba(34,88,115,0.4), rgba(0,0,0,0));
+}
+
+.bg-26:before {
+  background: -webkit-radial-gradient(center, rgba(94,80,129,0.6), rgba(0,0,0,0));
+}
+
+.bg-27:before {
+  background: -webkit-radial-gradient(center 300px, rgba(128,61,38,0.35), rgba(0,0,0,0));
+}
+
+.bg-28:before {
+  background: -webkit-radial-gradient(center, rgba(121,73,80,0.65), rgba(0,0,0,0));
+}
+
+.bg-29:before {
+  background: -webkit-radial-gradient(center, rgba(166,72,27,0.6), rgba(0,0,0,0));
+}
+
+.bg-30:before {
+  background: -webkit-radial-gradient(center, rgba(0,82,161,0.5), rgba(0,0,0,0));
+}

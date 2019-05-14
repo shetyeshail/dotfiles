@@ -1,0 +1,1 @@
+chrome.storage.local.get({t:null,i:false},function(q){q.t&&(q.i?location.href=q.t:chrome.tabs.update({url:q.t}))});

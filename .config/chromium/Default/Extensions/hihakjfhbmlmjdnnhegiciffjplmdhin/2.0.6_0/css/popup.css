@@ -1,0 +1,46 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+}
+
+html, body, h1, p, span, div {
+  font-family: arial, sans-serif;
+}
+
+body {
+  width: 325px;
+}
+
+h1, p {
+  margin: 0 24px 0 16px;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 16px;
+  color: #333333;
+}
+
+p.footer span {
+  color: #A0A3A6;
+  float: right;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.li-btn-primary {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.333333;
+  height: initial;
+  padding: 5px 25px;
+}

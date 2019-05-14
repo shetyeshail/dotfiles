@@ -1,0 +1,65 @@
+{
+   "api_console_project_id": "934696770472",
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/icon19.png",
+         "38": "images/icon38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_extName__"
+   },
+   "commands": {
+      "pause-or-resume-recording": {
+         "description": "Pause/Resume recording",
+         "global": true,
+         "suggested_key": {
+            "default": "Alt+P"
+         }
+      },
+      "stop-recording": {
+         "description": "Stop recording",
+         "global": true,
+         "suggested_key": {
+            "default": "Alt+S"
+         }
+      }
+   },
+   "container": "GOOGLE_DRIVE",
+   "content_scripts": [ {
+      "css": [ "stylesheets/selected.css" ],
+      "exclude_globs": [ "http://awesomescreenshot.com/save-local-flash/SaveToDisk.html" ],
+      "js": [ "javascripts/libs/jquery-3.4.0.min.js", "javascripts/content_script.js", "javascripts/libs/dragresize.js", "javascripts/jquery.draggable.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "javascripts/libs/inboxsdk.js", "javascripts/gmail_content.js" ],
+      "matches": [ "https://mail.google.com/*", "https://inbox.google.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com https://www.google-analytics.com https://connect.facebook.net https://platform.twitter.com http://localhost:8097/; object-src 'self' connect-src ws://localhost:8097",
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg/K8i52yFl8pg9dhNF2gybzmXE/R1BxJirE1+yNTnJkmvLl9jXAH5weM50YUcfLqG96YQK4uOh2jOOuhUXXBqvjpYbXG6nxZ4EUiKIa5I9/jrwj5Un8F9AKlVlZbM5GMh1iOdlx65JkFmy9mufwHMLr/DpdJrNZmrtwD51cy8JTTgs1Wc+yluoAmxXqA6uOTxe+2jLLDEFLMd8cjJGt+9vEiKqIKZGeMVOcb8LkOjr9KDOqj24vAgYsoeOvp6GPgkYPz5wtuCxcSun01zyOmmkTLsyvcXWve4DGsRIdp3vwjSnFd8q3ZIEL1DhlKVrh/YpInrMocN2mqUgV0gYgpcwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "6.0",
+   "name": "__MSG_extName__",
+   "oauth2": {
+      "client_id": "934696770472-c4k28j2t25p9fpntqsiblj12v8k8cob3.apps.googleusercontent.com",
+      "scopes": [ "profile", "email", "https://www.googleapis.com/auth/youtube", "https://www.googleapis.com/auth/drive" ]
+   },
+   "optional_permissions": [ "identity", "downloads" ],
+   "options_page": "option-react.html",
+   "permissions": [ "tabs", "\u003Call_urls>", "https://accounts.google.com/o/oauth2/token", "idle", "storage", "unlimitedStorage", "desktopCapture", "tabCapture", "cookies" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.5",
+   "web_accessible_resources": [ "images/success.gif", "images/clear.png", "images/icon19.png", "images/button_icon_cancel.png", "images/button_icon_cancel@2x.png", "images/button_icon_cancel_hover.png", "images/button_icon_cancel_hover@2x.png", "images/button_icon_capture.png", "images/button_icon_capture@2x.png", "images/button_icon_capture_hover.png", "images/button_icon_capture_hover@2x.png", "chrome-extension://alelhddbbhepgpmgidjdcjakblofbmce/#" ]
+}

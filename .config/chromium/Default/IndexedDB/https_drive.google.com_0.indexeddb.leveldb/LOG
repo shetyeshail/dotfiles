@@ -1,0 +1,6 @@
+2019/05/13-19:29:02.521 5b48 Reusing MANIFEST /home/shail/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/05/13-19:29:02.522 5b48 Recovering log #733
+2019/05/13-19:29:02.526 5b48 Reusing old log /home/shail/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000733.log 
+2019/05/13-19:29:04.095 c2d Level-0 table #737: started
+2019/05/13-19:29:04.108 c2d Level-0 table #737: 911251 bytes OK
+2019/05/13-19:29:04.112 c2d Delete type=0 #733

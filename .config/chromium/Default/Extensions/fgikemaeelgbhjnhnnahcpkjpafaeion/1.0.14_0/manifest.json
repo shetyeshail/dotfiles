@@ -1,0 +1,17 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "templates/index.html"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icons/wunderlist128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlHAA+elLyf8ePifraXqrgOhoexi7jGEV7E263JSpSeVh928iw6ns0noIKpESn6TdPM38iKQ1VR4SpbmnbCzWb9AMApj/MABpHLP1sEP1VlPowsn/cJIk9bNG71XXIa1o9/1F2d9JIF9PuAE9Mqo3+Be3OZqzDEJAFMH7N6JfE2dbakeMVRjjC9ypccuSchnIIGUlIlTl4b5wL6fg6V3TKGlOQx0XMhejjFq5eORl/ALjd9rLwjSxa9AEaRRkJwYLkJHmb1cWPDSnuJ+wRm8wcpOWGoJJEQPUQp+nqHrjdlbdiiwbqao2+psnA0/pIkYTzqxxPcUVih7Cg7nidm7lFwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "identity", "storage", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.14"
+}

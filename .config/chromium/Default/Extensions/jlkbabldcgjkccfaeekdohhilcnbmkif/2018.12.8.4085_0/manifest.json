@@ -1,0 +1,20 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://dowhome1.dasd.org/homeaccess/"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "bePS2wj/iQdACiSS6dWJ+hqnaqzhnQQyHuGljfan0Xs=",
+   "name": "https://dowhome1.dasd.org/homeaccess/",
+   "version": "2018.12.8.4085"
+}

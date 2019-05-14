@@ -1,0 +1,23 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/menu.png",
+      "default_popup": "popup.html"
+   },
+   "content_security_policy": "script-src 'self' https://api.viglink.com chrome-extension-resource: https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Save and restore window sessions over time and across multiple computers.",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMFZ4pPDgnJS7w0KE8VYK60E/jiJkSOQaVJZVdlMl0B/jej9UgZYCYIDe0ZuIfBuiQXEbxFS5xpfEfoQq37rwXGUoCfMf1hYlPz4ixxyp7vOCGOsaMUqzC09nxJWhkugkNFRIMnrFtuZGMMm+tfItXz32uVgy/ZGFU2CGWougIrwIDAQAB",
+   "manifest_version": 2,
+   "name": "TabCloud",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "chrome://favicon/", "https://chrometabcloud.appspot.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.17"
+}

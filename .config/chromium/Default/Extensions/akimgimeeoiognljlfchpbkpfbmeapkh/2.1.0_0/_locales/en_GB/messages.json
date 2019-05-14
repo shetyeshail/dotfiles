@@ -1,0 +1,83 @@
+{
+   "appleappdownload": {
+      "message": "Download from the app store"
+   },
+   "apps": {
+      "message": "Apps"
+   },
+   "change": {
+      "message": "Change"
+   },
+   "close": {
+      "message": "Close"
+   },
+   "credits": {
+      "message": "Google Arts & Culture"
+   },
+   "defaultnewtab": {
+      "message": "Default new tab"
+   },
+   "extdescription": {
+      "message": "Art masterpieces from Google Arts & Culture in your browser tabs"
+   },
+   "extname": {
+      "message": "Google Arts & Culture"
+   },
+   "extshortname": {
+      "message": "Arts & Culture"
+   },
+   "optionsappsbtn": {
+      "message": "Show apps button"
+   },
+   "optionsappsbtndesc": {
+      "message": "Opens Chrome's apps page"
+   },
+   "optionsinterface": {
+      "message": "Interface settings"
+   },
+   "optionsntpbtn": {
+      "message": "Show default new tab button"
+   },
+   "optionsntpbtndesc": {
+      "message": "Opens Chrome's default new tab"
+   },
+   "optionstopsitesbtn": {
+      "message": "Show top sites button"
+   },
+   "optionstopsitesbtndesc": {
+      "message": "Opens a quick list of your most visited websites"
+   },
+   "pagetitle": {
+      "message": "New Tab"
+   },
+   "playappdownload": {
+      "message": "Get it on Google Play"
+   },
+   "showappsbutton": {
+      "message": "Show apps button"
+   },
+   "showdefaulttablink": {
+      "message": "Show default new tab button"
+   },
+   "showtopsitesbutton": {
+      "message": "Show top sites button"
+   },
+   "topsites": {
+      "message": "Top sites"
+   },
+   "turnovergroup": {
+      "message": "Change artwork..."
+   },
+   "turnovermodealways": {
+      "message": "In every new tab"
+   },
+   "turnovermodedaily": {
+      "message": "Daily"
+   },
+   "unknown": {
+      "message": "Unknown Artist"
+   },
+   "untitled": {
+      "message": "Untitled"
+   }
+}

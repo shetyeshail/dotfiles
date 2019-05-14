@@ -1,0 +1,9 @@
+# Dark theme.
+rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
+rofi.font: Roboto 16
+
+rofi.width: 50
+rofi.lines: 5
+rofi.columns: 1
+rofi.padding: 800
+rofi.eh: 1.5

@@ -1,0 +1,9 @@
+2019/05/03-17:38:02.072 2ca8 Reusing MANIFEST /home/shail/.config/chromium/Default/IndexedDB/https_www.resetera.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/05/03-17:38:03.380 2ca4 Current memtable full; waiting...
+2019/05/03-17:38:03.380 de3 Level-0 table #5: started
+2019/05/03-17:38:03.383 de3 Level-0 table #5: 444 bytes OK
+2019/05/03-17:38:03.387 de3 Delete type=0 #3
+2019/05/03-17:38:03.388 de3 Level-0 table #7: started
+2019/05/03-17:38:03.388 de3 Level-0 table #7: 0 bytes OK
+2019/05/03-17:38:03.391 de3 Delete type=0 #4
+2019/05/03-17:38:03.391 de3 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

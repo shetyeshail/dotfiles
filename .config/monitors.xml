@@ -1,0 +1,36 @@
+<monitors version="2">
+  <configuration>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>eDP1</connector>
+          <vendor>AUO</vendor>
+          <product>0x133d</product>
+          <serial>0x00000000</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60.049468994140625</rate>
+        </mode>
+      </monitor>
+      <monitor>
+        <monitorspec>
+          <connector>DP2</connector>
+          <vendor>DEL</vendor>
+          <product>DELL P2211H</product>
+          <serial>TYXD913QEGQS</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+</monitors>

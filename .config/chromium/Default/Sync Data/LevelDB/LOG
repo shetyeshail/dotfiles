@@ -1,0 +1,33 @@
+2019/05/10-22:15:37.960 4dd Reusing MANIFEST /home/shail/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2019/05/10-22:15:37.960 4dd Recovering log #552
+2019/05/10-22:15:37.962 4dd Reusing old log /home/shail/.config/chromium/Default/Sync Data/LevelDB/000552.log 
+2019/05/10-22:18:32.186 6f0 Level-0 table #557: started
+2019/05/10-22:18:32.191 6f0 Level-0 table #557: 133640 bytes OK
+2019/05/10-22:18:32.195 6f0 Delete type=0 #552
+2019/05/11-09:02:47.400 6f0 Level-0 table #559: started
+2019/05/11-09:02:47.406 6f0 Level-0 table #559: 143424 bytes OK
+2019/05/11-09:02:47.412 6f0 Delete type=0 #556
+2019/05/12-11:39:59.874 6f0 Level-0 table #561: started
+2019/05/12-11:39:59.881 6f0 Level-0 table #561: 121050 bytes OK
+2019/05/12-11:39:59.884 6f0 Delete type=0 #558
+2019/05/12-20:05:31.669 6f0 Level-0 table #563: started
+2019/05/12-20:05:31.675 6f0 Level-0 table #563: 107934 bytes OK
+2019/05/12-20:05:31.679 6f0 Delete type=0 #560
+2019/05/12-20:05:31.679 6f0 Compacting 4@0 + 1@1 files
+2019/05/12-20:05:31.693 6f0 Generated table #564@0: 3588 keys, 552412 bytes
+2019/05/12-20:05:31.693 6f0 Compacted 4@0 + 1@1 files => 552412 bytes
+2019/05/12-20:05:31.696 6f0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/05/12-20:05:31.696 6f0 Delete type=2 #563
+2019/05/12-20:05:31.697 6f0 Delete type=2 #554
+2019/05/12-20:05:31.697 6f0 Delete type=2 #561
+2019/05/12-20:05:31.697 6f0 Delete type=2 #559
+2019/05/12-20:05:31.698 6f0 Delete type=2 #557
+2019/05/13-19:27:58.991 6f0 Level-0 table #566: started
+2019/05/13-19:27:59.001 6f0 Level-0 table #566: 138601 bytes OK
+2019/05/13-19:27:59.006 6f0 Delete type=0 #562
+2019/05/13-20:15:39.939 6f0 Level-0 table #568: started
+2019/05/13-20:15:39.945 6f0 Level-0 table #568: 98997 bytes OK
+2019/05/13-20:15:39.951 6f0 Delete type=0 #565
+2019/05/13-21:03:42.345 6f0 Level-0 table #570: started
+2019/05/13-21:03:42.350 6f0 Level-0 table #570: 92074 bytes OK
+2019/05/13-21:03:42.355 6f0 Delete type=0 #567
