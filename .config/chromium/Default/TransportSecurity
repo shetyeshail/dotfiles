@@ -642,10 +642,10 @@
       "sts_observed": 1545429156.019326
    },
    "5EdUoB7YUY9zZV+2DkgVXgho8WUvp+D+6KpeUOhNQIM=": {
-      "expiry": 1589334338.01506,
+      "expiry": 1589334712.666441,
       "mode": "force-https",
       "sts_include_subdomains": false,
-      "sts_observed": 1557798338.015065
+      "sts_observed": 1557798712.666444
    },
    "5IVGcSlN6kkwx5CZTK92GQiPs3DrLHC6A4KflKnR6uk=": {
       "expect_ct": {
@@ -1716,10 +1716,10 @@
       "sts_observed": 1556396982.421208
    },
    "Ifty0kmGtBkqpzyRNEJ2iccvLpOffAEtEf72UjNCr0U=": {
-      "expiry": 1589334325.08128,
+      "expiry": 1589334757.579793,
       "mode": "force-https",
       "sts_include_subdomains": true,
-      "sts_observed": 1557798325.081284
+      "sts_observed": 1557798757.579802
    },
    "Imip1Y7nHfPZTYQgI7EifDZOyiqlFeRT0HU8heztW1Q=": {
       "expect_ct": {
@@ -3066,10 +3066,10 @@
       "sts_observed": 1557675592.08569
    },
    "akG+5rtcxKl4GugtSpkgQumWU38l1MAtz7dAUMeO1lA=": {
-      "expiry": 1571713905.251867,
+      "expiry": 1573350652.840136,
       "mode": "force-https",
       "sts_include_subdomains": true,
-      "sts_observed": 1556161905.251873
+      "sts_observed": 1557798652.840138
    },
    "ansrcMZakh2AWykOiFHwHDGuK4B8Bxd8lXREYLNMT9U=": {
       "expiry": 1588472926.929579,
@@ -3110,14 +3110,14 @@
    "bVzOnu6xyelN8iVLDSbFjyZVgXrXDyLSokjnq2hdUFs=": {
       "expect_ct": {
          "expect_ct_enforce": false,
-         "expect_ct_expiry": 1560390455.192202,
-         "expect_ct_observed": 1557798455.192202,
+         "expect_ct_expiry": 1560390756.930806,
+         "expect_ct_observed": 1557798756.930806,
          "expect_ct_report_uri": "https://api.github.com/_private/browser/errors"
       },
-      "expiry": 1589334455.192186,
+      "expiry": 1589334756.930781,
       "mode": "force-https",
       "sts_include_subdomains": true,
-      "sts_observed": 1557798455.192191
+      "sts_observed": 1557798756.93079
    },
    "bY6LUMz42r2UWbC3HtsR3GGSZCGCB4N2aknqpFp9bzY=": {
       "expiry": 1576004386.06813,
