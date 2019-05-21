@@ -36,10 +36,10 @@
       "sts_observed": 1558402690.665303
    },
    "0J7rAWV0ouCFYJ9XrkDiKnAO1SshXJmLJE1SS3V8kDM=": {
-      "expiry": 1589945377.635542,
+      "expiry": 1589946131.543225,
       "mode": "force-https",
       "sts_include_subdomains": false,
-      "sts_observed": 1558409377.635545
+      "sts_observed": 1558410131.543231
    },
    "26YaoM4gVrY0ie3hywpFBUJh47nIlvTljf0QEZuoLCM=": {
       "expiry": 1569289232.004274,
@@ -186,16 +186,16 @@
       "sts_observed": 1558402722.744959
    },
    "IOm8EqmCuxTAkUzf220T3cMBmvINcTbr5fs5zRrRP2s=": {
-      "expiry": 1589945380.607221,
+      "expiry": 1589946148.34948,
       "mode": "force-https",
       "sts_include_subdomains": false,
-      "sts_observed": 1558409380.607224
+      "sts_observed": 1558410148.349482
    },
    "Ifty0kmGtBkqpzyRNEJ2iccvLpOffAEtEf72UjNCr0U=": {
-      "expiry": 1589944743.307664,
+      "expiry": 1589946145.156131,
       "mode": "force-https",
       "sts_include_subdomains": true,
-      "sts_observed": 1558408743.307671
+      "sts_observed": 1558410145.156137
    },
    "LAZkYS46RVRcFiZAzmUJrz6TJHBd4nwE6VxPWfPLYHs=": {
       "expiry": 1569293953.125901,
@@ -338,14 +338,14 @@
    "bVzOnu6xyelN8iVLDSbFjyZVgXrXDyLSokjnq2hdUFs=": {
       "expect_ct": {
          "expect_ct_enforce": false,
-         "expect_ct_expiry": 1561001831.023053,
-         "expect_ct_observed": 1558409831.023053,
+         "expect_ct_expiry": 1561002160.614574,
+         "expect_ct_observed": 1558410160.614574,
          "expect_ct_report_uri": "https://api.github.com/_private/browser/errors"
       },
-      "expiry": 1589945831.023039,
+      "expiry": 1589946160.61456,
       "mode": "force-https",
       "sts_include_subdomains": true,
-      "sts_observed": 1558409831.023043
+      "sts_observed": 1558410160.614565
    },
    "dIsI2buJU03Gk+THOFWmwxSsKSozjiKfCZJTx8Jn9aI=": {
       "expiry": 1589944063.693713,
